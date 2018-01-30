@@ -36,15 +36,15 @@ static void convertSeeds(std::vector<CAddress> &vSeedsOut, const unsigned int *d
     {
         struct in_addr ip;
         unsigned int i = data[k], t;
-        
+
         // -- convert to big endian
         t =   (i & 0x000000ff) << 24u
             | (i & 0x0000ff00) << 8u
             | (i & 0x00ff0000) >> 8u
             | (i & 0xff000000) >> 24u;
-        
+
         memcpy(&ip, &t, sizeof(ip));
-        
+
         CAddress addr(CService(ip, port));
         addr.nTime = GetTime()-GetRand(nOneWeek)-nOneWeek;
         vSeedsOut.push_back(addr);
@@ -57,16 +57,16 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0xd3;
-        pchMessageStart[1] = 0x1f;
-        pchMessageStart[2] = 0x3d;
+        pchMessageStart[0] = 0xd1;
+        pchMessageStart[1] = 0x3f;
+        pchMessageStart[2] = 0xd0;
         pchMessageStart[3] = 0x05;
-        vAlertPubKey = ParseHex("04aef1ba691cf0ab79ce776a69fc0f7427f62ff2a1138928008741a0b6f616ef7d41ae59d6e69ca0a0d21d4909ae5726a7ea5803a572a2e96f9d2268e14a0d702b");
-        nDefaultPort = 33290;
-        nRPCPort = 33291;
+        vAlertPubKey = ParseHex("04305590343f91cc401d56d68b123028bf52e5fca1939df127f63c6467cdf9c8e2c14b61104cf817d0b780da337893ecc4aaff1309e536162dabbdb45200ca2b0a");
+        nDefaultPort = 50501;
+        nRPCPort = 53333;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
-        const char* pszTimestamp = "12/Jan/2018 - How Blockchain is Banking the Unbanked";
+        const char* pszTimestamp = "31/Jan/2018 - This orange clown is still in The White House.";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -78,24 +78,24 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1515777783;
-        genesis.nBits    = 0x1f00ffff; 
+        genesis.nTime    = 1517287797;
+        genesis.nBits    = 0x1f00ffff;
         genesis.nNonce   = 221513;
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x0000429fae9f954dc9a2e25619e287ad19a173e7c2fd242041b12ecc48ee1984"));
-        assert(genesis.hashMerkleRoot == uint256("0x7c61ae38dc4c7cefcd40fe19654d7c98364a51f36fef8e5f54cf9b91853bafea"));
-                
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,32);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,85);
+        //assert(hashGenesisBlock == uint256("0x"));
+        //assert(genesis.hashMerkleRoot == uint256("0x"));
+
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,12);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,32);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,153);
-        base58Prefixes[STEALTH_ADDRESS] = std::vector<unsigned char>(1,40);
+        base58Prefixes[STEALTH_ADDRESS] = std::vector<unsigned char>(1,18);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        vSeeds.push_back(CDNSSeedData("1","s0.drumpfcoin.info"));
-        vSeeds.push_back(CDNSSeedData("2","s1.drumpfcoin.info"));
+        vSeeds.push_back(CDNSSeedData("1","s0.drumpfco.in"));
+        vSeeds.push_back(CDNSSeedData("2","s1.drumpfco.in"));
         vSeeds.push_back(CDNSSeedData("3","s2.drumpfcoin.info"));
         vSeeds.push_back(CDNSSeedData("4","s3.drumpfcoin.info"));
         vSeeds.push_back(CDNSSeedData("5","s4.drumpfcoin.info"));
@@ -138,12 +138,12 @@ public:
         pchMessageStart[3] = 0x13;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
         vAlertPubKey = ParseHex("042b2e5e94596c21d8cff4c4568ce53cc60907d52d6b99f62f35e0fedebe9bafff280c8462091b59ee2f69b860b44d264a25f386c10e5630c087ce70cf8246ff1c");
-        nDefaultPort = 43290;
-        nRPCPort = 43291;
+        nDefaultPort = 50002;
+        nRPCPort = 54444;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nBits  = 0x1f00ffff; 
+        genesis.nBits  = 0x1f00ffff;
         genesis.nNonce = 221513;
 
         assert(hashGenesisBlock == uint256("0x0000429fae9f954dc9a2e25619e287ad19a173e7c2fd242041b12ecc48ee1984"));
@@ -188,9 +188,9 @@ void SelectParams(CChainParams::Network network) {
 }
 
 bool SelectParamsFromCommandLine() {
-    
+
     bool fTestNet = GetBoolArg("-testnet", false);
-    
+
     if (fTestNet) {
         SelectParams(CChainParams::TESTNET);
     } else {

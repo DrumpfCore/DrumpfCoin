@@ -47,7 +47,7 @@ set<pair<COutPoint, unsigned int> > setStakeSeen;
 
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 
-unsigned int nStakeMinAge = 8 * 60 * 60; // 8 hours
+unsigned int nStakeMinAge = 600; // 10 minutes
 unsigned int nModifierInterval = 8 * 60; // time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 50;
@@ -1356,12 +1356,7 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
     int64_t nSubsidy = 0;
-
-    if (nHeight == 1) {
-        nSubsidy = 375000 * COIN;
-    } else {
-        nSubsidy = 50 * COIN;
-    }
+    nSubsidy = 50 * COIN;
     return nSubsidy + nFees;
 }
 
@@ -1967,7 +1962,7 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
 #ifndef LOWMEM
     pindex->nMint = nValueOut - nValueIn + nFees;
     pindex->nMoneySupply = (pindex->pprev? pindex->pprev->nMoneySupply : 0) + nValueOut - nValueIn;
-#endif    
+#endif
     if (!txdb.WriteBlockIndex(CDiskBlockIndex(pindex)))
         return error("Connect() : WriteBlockIndex for pindex failed");
 
@@ -2373,7 +2368,7 @@ bool CBlock::AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos, const u
     if (!ComputeNextStakeModifier(pindexNew->pprev, nStakeModifier, fGeneratedStakeModifier))
         return error("AddToBlockIndex() : ComputeNextStakeModifier() failed");
     pindexNew->SetStakeModifier(nStakeModifier, fGeneratedStakeModifier);
-    
+
     // Add to mapBlockIndex
     map<uint256, CBlockIndex*>::iterator mi = mapBlockIndex.insert(make_pair(hash, pindexNew)).first;
     if (pindexNew->IsProofOfStake())
@@ -3109,7 +3104,7 @@ void PrintBlockTree()
         LogPrintf("%d (%u,%u) %s  %08x  %s  mint %7s  tx %u",
 #else
         LogPrintf("%d (%u,%u) %s  %08x  %s  tx %u",
-#endif        
+#endif
             pindex->nHeight,
             pindex->nFile,
             pindex->nBlockPos,
@@ -3118,7 +3113,7 @@ void PrintBlockTree()
             DateTimeStrFormat("%x %H:%M:%S", block.GetBlockTime()),
 #ifndef LOWMEM
             FormatMoney(pindex->nMint),
-#endif            
+#endif
             block.vtx.size());
 
         // put the main time-chain first
@@ -3702,7 +3697,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
                 break;
             }
         }
-        
+
         LOCK(cs_main);
         CTxDB txdb("r");
 

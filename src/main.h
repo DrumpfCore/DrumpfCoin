@@ -18,14 +18,14 @@
 
 class CValidationState;
 
-#define START_MASTERNODE_PAYMENTS_TESTNET 1515777783 
-#define START_MASTERNODE_PAYMENTS 1515777783 
+#define START_MASTERNODE_PAYMENTS_TESTNET 1515777783
+#define START_MASTERNODE_PAYMENTS 1515777783
 
 static const int64_t DARKSEND_COLLATERAL = (0.01*COIN);
 static const int64_t DARKSEND_POOL_MAX = (2499.99*COIN);
 
 static const int64_t STATIC_POS_REWARD = 10 * COIN;
-static const int64_t TARGET_SPACING = 180;
+static const int64_t TARGET_SPACING = 60;
 
 
 #define INSTANTX_SIGNATURES_REQUIRED           10
@@ -1104,11 +1104,11 @@ public:
         return strprintf("CBlockIndex(nprev=%p, pnext=%p, nFile=%u, nBlockPos=%-6d nHeight=%d, nMint=%s, nMoneySupply=%s, nFlags=(%s)(%d)(%s), nStakeModifier=%016x, hashProof=%s, prevoutStake=(%s), nStakeTime=%d merkle=%s, hashBlock=%s)",
 #else
         return strprintf("CBlockIndex(nprev=%p, pnext=%p, nFile=%u, nBlockPos=%-6d nHeight=%d, nFlags=(%s)(%d)(%s), nStakeModifier=%016x, hashProof=%s, prevoutStake=(%s), nStakeTime=%d merkle=%s, hashBlock=%s)",
-#endif        
+#endif
             pprev, pnext, nFile, nBlockPos, nHeight,
 #ifndef LOWMEM
             FormatMoney(nMint), FormatMoney(nMoneySupply),
-#endif           
+#endif
             GeneratedStakeModifier() ? "MOD" : "-", GetStakeEntropyBit(), IsProofOfStake()? "PoS" : "PoW",
             nStakeModifier,
             hashProof.ToString(),
