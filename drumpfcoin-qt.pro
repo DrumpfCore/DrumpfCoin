@@ -29,19 +29,33 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 # workaround for boost 1.58
 DEFINES += BOOST_VARIANT_USE_RELAXED_GET_BY_DEFAULT
 
-BOOST_LIB_SUFFIX=
-BOOST_INCLUDE_PATH=/usr/include/boost
-BOOST_LIB_PATH=/usr/lib/x86_64-linux-gnu
-BDB_INCLUDE_PATH=/usr/include
-BDB_LIB_PATH=/usr/lib
-OPENSSL_INCLUDE_PATH=/usr/include/openssl
-OPENSSL_LIB_PATH=/usr/lib/x86_64-linux-gnu
-MINIUPNPC_INCLUDE_PATH=/usr/include/miniupnpc
-MINIUPNPC_LIB_PATH=/usr/libC
-QRENCODE_INCLUDE_PATH=/usr/lib/x86_64-linux-gnu
-QRENCODE_LIB_PATH=/usr/lib/x86_64-linux-gnu
-SECP256K1_LIB_PATH = src/secp256k1/.libs
-SECP256K1_INCLUDE_PATH = src/secp256k1/include
+#BOOST_LIB_SUFFIX=
+#BOOST_INCLUDE_PATH=/usr/include/boost
+#BOOST_LIB_PATH=/usr/lib/x86_64-linux-gnu
+#BDB_INCLUDE_PATH=/usr/include
+#BDB_LIB_PATH=/usr/lib
+#OPENSSL_INCLUDE_PATH=/usr/include/openssl
+#OPENSSL_LIB_PATH=/usr/lib/x86_64-linux-gnu
+#MINIUPNPC_INCLUDE_PATH=/usr/include/miniupnpc
+#MINIUPNPC_LIB_PATH=/usr/libC
+#QRENCODE_INCLUDE_PATH=/usr/lib/x86_64-linux-gnu
+#QRENCODE_LIB_PATH=/usr/lib/x86_64-linux-gnu
+BOOST_LIB_SUFFIX=-mgw49-mt-s-1_55
+BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
+BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
+BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
+BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
+OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1j/include
+OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1j
+MINIUPNPC_INCLUDE_PATH=C:/deps/
+MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
+QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
+QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
+SECP256K1_LIB_PATH = C:/deps/secp256k1/.libs
+SECP256K1_INCLUDE_PATH = C:/deps/secp256k1/include
+
+#SECP256K1_LIB_PATH = src/secp256k1/.libs
+#SECP256K1_INCLUDE_PATH = src/secp256k1/include
 
 OBJECTS_DIR = build
 MOC_DIR = build
@@ -452,7 +466,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/x11/luffa.c \
     src/x11/shavite.c \
     src/x11/simd.c \
-    src/x11/skein.c 
+    src/x11/skein.c
 
 RESOURCES += \
     src/qt/bitcoin.qrc
