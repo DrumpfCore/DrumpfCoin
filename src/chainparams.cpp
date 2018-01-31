@@ -53,8 +53,8 @@ public:
         pchMessageStart[2] = 0xd6;
         pchMessageStart[3] = 0xe2;
         vAlertPubKey = ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f");
-        nDefaultPort = 43210;
-        nRPCPort = 43211;
+        nDefaultPort = 58008;
+        nRPCPort = 59008;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -65,7 +65,7 @@ public:
         //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
-        const char *pszTimestamp = "💰💰💰💰💰💰💰💰💰 A lot of money bags will be found on next years 12/3/2017 2/22/2017 💰💰💰💰💰💰";
+        const char *pszTimestamp = "Grab life by the pussy.";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char *)pszTimestamp, (const unsigned char *)pszTimestamp + strlen(pszTimestamp));
@@ -77,52 +77,19 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1513900803;
+        genesis.nTime = 1517435028;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 181489;
+        genesis.nNonce = 849111;
 
         hashGenesisBlock = genesis.GetHash();
         // printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         // printf("merkle = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 
-        assert(hashGenesisBlock == uint256("0xecfb30eee1a53f304655e41022a6f6617922ad7faf84e1f1caacd315d303bbd8"));
-        assert(genesis.hashMerkleRoot == uint256("0x2c473a492c11295d578a2f2409cb0401adf031bd29a5e963e38c2b55a3c16052"));
+        assert(hashGenesisBlock == uint256("0x000000472fc7b3a675326f08114f5cb988dd2f4ad905855ad27e69f030909de55"));
+        assert(genesis.hashMerkleRoot == uint256("0x220dc44d1f6cdfcad4eee1d599a347153d22b4ff4a23a018d234f4dcabbd7d2e"));
 
-        vSeeds.push_back(CDNSSeedData("n0", "82.36.184.73:43210"));
-        vSeeds.push_back(CDNSSeedData("n1", "5.189.152.63:43210"));
-        vSeeds.push_back(CDNSSeedData("n2", "173.249.7.89:43210"));
-        vSeeds.push_back(CDNSSeedData("n3", "138.68.68.149:43210"));
-        vSeeds.push_back(CDNSSeedData("explorer", "35.197.91.231:43210"));
-        vSeeds.push_back(CDNSSeedData("node-1", "35.205.164.239:43210"));
-        vSeeds.push_back(CDNSSeedData("n3", "35.197.91.231:43210"));
-        vSeeds.push_back(CDNSSeedData("n4", "147.135.130.119:43210"));
-        vSeeds.push_back(CDNSSeedData("n5", "1.33.247.11:64765"));
-        vSeeds.push_back(CDNSSeedData("n6", "1.54.213.25:25387"));
-        vSeeds.push_back(CDNSSeedData("n7", "103.1.239.208:57179"));
-        vSeeds.push_back(CDNSSeedData("n8", "103.233.194.202:60560"));
-        vSeeds.push_back(CDNSSeedData("n9", "103.71.237.15:41447"));
-        vSeeds.push_back(CDNSSeedData("n10", "104.155.199.216:53706"));
-        vSeeds.push_back(CDNSSeedData("n11", "80.79.194.65:57371"));
-        vSeeds.push_back(CDNSSeedData("n12", "104.155.199.216:55016"));
-        vSeeds.push_back(CDNSSeedData("n13", "109.248.46.56:58755"));
-        vSeeds.push_back(CDNSSeedData("n14", "111.239.150.36:61563"));
-        vSeeds.push_back(CDNSSeedData("n15", "113.190.122.28:58802"));
-        vSeeds.push_back(CDNSSeedData("n16", "115.132.163.13:56704"));
-        vSeeds.push_back(CDNSSeedData("n17", "115.77.245.105:54707"));
-        vSeeds.push_back(CDNSSeedData("n18", "119.59.115.39:59605"));
-        vSeeds.push_back(CDNSSeedData("n18", "119.59.115.39:59605"));
-        vSeeds.push_back(CDNSSeedData("n20", "119.59.115.40:43210"));
-        vSeeds.push_back(CDNSSeedData("n21", "23.225.207.3:43210"));
-        vSeeds.push_back(CDNSSeedData("n22", "91.223.147.100:43210"));	
-        vSeeds.push_back(CDNSSeedData("n23", "147.135.184.160:43210"));	
-        vSeeds.push_back(CDNSSeedData("n24", "945.77.3.214:43210"));
-        vSeeds.push_back(CDNSSeedData("n25", "2.132.148.193:43210"));
-        vSeeds.push_back(CDNSSeedData("n26", "176.12.32.153:43210"));
-        vSeeds.push_back(CDNSSeedData("n27", "45.77.189.20:43210"));
-        vSeeds.push_back(CDNSSeedData("n28", "212.86.114.231:43210"));
-        vSeeds.push_back(CDNSSeedData("n29", "18.195.137.30:8887"));
-        vSeeds.push_back(CDNSSeedData("n30", "18.195.137.30:8888"));
-        
+        vSeeds.push_back(CDNSSeedData("n0", "52.55.94.245"));
+
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 51);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 5);
