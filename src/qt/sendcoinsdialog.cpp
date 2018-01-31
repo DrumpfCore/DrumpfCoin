@@ -36,7 +36,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)"));
 #endif
 
     addEntry();
@@ -463,7 +463,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
             ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
-            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid MoneyBagCoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid DrumpfCoin address"));
         }
         else
         {

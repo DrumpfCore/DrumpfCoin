@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to MoneyBagCoin Secure Messaging from Qt view code. */
+/** Interface to DrumpfCoin Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

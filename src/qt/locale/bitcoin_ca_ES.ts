@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About MoneyBagCoin</source>
-        <translation>Sobre MoneyBagCoin</translation>
+        <source>About DrumpfCoin</source>
+        <translation>Sobre DrumpfCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;MoneyBagCoin&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;MoneyBagCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;DrumpfCoin&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;DrumpfCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2017 The MoneyBagCoin developers</source>
+Copyright © 2017 The DrumpfCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2017 The MoneyBagCoin developers</translation>
+Copyright © 2017 The DrumpfCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your MoneyBagCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de MoneyBagCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your DrumpfCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de DrumpfCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a MoneyBagCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça MoneyBagCoin</translation>
+        <source>Sign a message to prove you own a DrumpfCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça DrumpfCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified MoneyBagCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça MoneyBagCoin especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified DrumpfCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça DrumpfCoin especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>MoneyBagCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>MoneyBagCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>DrumpfCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>DrumpfCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about MoneyBagCoin</source>
-        <translation>Mostra informació sobre MoneyBagCoin</translation>
+        <source>Show information about DrumpfCoin</source>
+        <translation>Mostra informació sobre DrumpfCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a MoneyBagCoin address</source>
-        <translation>Enviar monedes a una adreça MoneyBagCoin</translation>
+        <source>Send coins to a DrumpfCoin address</source>
+        <translation>Enviar monedes a una adreça DrumpfCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for MoneyBagCoin</source>
-        <translation>Modificar les opcions de configuració per a MoneyBagCoin</translation>
+        <source>Modify configuration options for DrumpfCoin</source>
+        <translation>Modificar les opcions de configuració per a DrumpfCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>MoneyBagCoin</source>
-        <translation>MoneyBagCoin</translation>
+        <source>DrumpfCoin</source>
+        <translation>DrumpfCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About MoneyBagCoin</source>
-        <translation>&amp;Sobre MoneyBagCoin</translation>
+        <source>&amp;About DrumpfCoin</source>
+        <translation>&amp;Sobre DrumpfCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>MoneyBagCoin client</source>
-        <translation>Client MoneyBagCoin</translation>
+        <source>DrumpfCoin client</source>
+        <translation>Client DrumpfCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to MoneyBagCoin network</source>
-        <translation><numerusform>%n conexió activa a la xarxa MoneyBagCoin</numerusform><numerusform>%n conexions actives a la xarxa MoneyBagCoin</numerusform></translation>
+        <source>%n active connection(s) to DrumpfCoin network</source>
+        <translation><numerusform>%n conexió activa a la xarxa DrumpfCoin</numerusform><numerusform>%n conexions actives a la xarxa DrumpfCoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -596,8 +596,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid MoneyBagCoin address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça MoneyBagCoin no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DrumpfCoin address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça DrumpfCoin no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -719,8 +719,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. MoneyBagCoin can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. MoneyBagCoin ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. DrumpfCoin can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. DrumpfCoin ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1053,8 +1053,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MoneyBagCoin address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça MoneyBagCoin vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DrumpfCoin address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça DrumpfCoin vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1072,8 +1072,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>MoneyBagCoin-Qt</source>
-        <translation>MoneyBagCoin-Qt</translation>
+        <source>DrumpfCoin-Qt</source>
+        <translation>DrumpfCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1145,13 +1145,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start MoneyBagCoin after logging in to the system.</source>
-        <translation>Inicia automàticament MoneyBagCoin després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start DrumpfCoin after logging in to the system.</source>
+        <translation>Inicia automàticament DrumpfCoin després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MoneyBagCoin on system login</source>
-        <translation>&amp;Iniciar MoneyBagCoin amb l&apos;inici de sessió</translation>
+        <source>&amp;Start DrumpfCoin on system login</source>
+        <translation>&amp;Iniciar DrumpfCoin amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1160,8 +1160,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the MoneyBagCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client MoneyBagCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the DrumpfCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client DrumpfCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1170,8 +1170,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the MoneyBagCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa MoneyBagCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the DrumpfCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa DrumpfCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1245,8 +1245,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MoneyBagCoin.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar MoneyBagCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1312,8 +1312,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting MoneyBagCoin.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar MoneyBagCoin.</translation>
+        <source>This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1331,8 +1331,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MoneyBagCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa MoneyBagCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DrumpfCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa DrumpfCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1405,7 +1405,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start MoneyBagCoin: click-to-pay handler</source>
+        <source>Cannot start DrumpfCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1573,8 +1573,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the MoneyBagCoin-Qt help message to get a list with possible MoneyBagCoin command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de MoneyBagCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres MoneyBagCoin.</translation>
+        <source>Show the DrumpfCoin-Qt help message to get a list with possible DrumpfCoin command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de DrumpfCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1593,13 +1593,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>MoneyBagCoin - Debug window</source>
-        <translation>MoneyBagCoin - Finestra Depuració</translation>
+        <source>DrumpfCoin - Debug window</source>
+        <translation>DrumpfCoin - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>MoneyBagCoin Core</source>
-        <translation>Nucli MoneyBagCoin</translation>
+        <source>DrumpfCoin Core</source>
+        <translation>Nucli DrumpfCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1608,8 +1608,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MoneyBagCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració MoneyBagCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the DrumpfCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració DrumpfCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1618,8 +1618,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the MoneyBagCoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de MoneyBagCoin.</translation>
+        <source>Welcome to the DrumpfCoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1812,8 +1812,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Introdueix una adreça MoneyBagCoin (p.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Introdueix una adreça DrumpfCoin (p.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1912,8 +1912,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid MoneyBagCoin address</source>
-        <translation>ADVERTÈNCIA: Direcció MoneyBagCoin invàlida</translation>
+        <source>WARNING: Invalid DrumpfCoin address</source>
+        <translation>ADVERTÈNCIA: Direcció DrumpfCoin invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1986,8 +1986,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Introdueix una adreça MoneyBagCoin (p.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Introdueix una adreça DrumpfCoin (p.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
 </context>
 <context>
@@ -2047,8 +2047,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MoneyBagCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça MoneyBagCoin</translation>
+        <source>Sign the message to prove you own this DrumpfCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça DrumpfCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2079,8 +2079,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified MoneyBagCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça MoneyBagCoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified DrumpfCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça DrumpfCoin especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2090,8 +2090,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Introdueix una adreça MoneyBagCoin (p.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Introdueix una adreça DrumpfCoin (p.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2100,8 +2100,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter MoneyBagCoin signature</source>
-        <translation>Introduïu la signatura MoneyBagCoin</translation>
+        <source>Enter DrumpfCoin signature</source>
+        <translation>Introduïu la signatura DrumpfCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2679,8 +2679,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>MoneyBagCoin version</source>
-        <translation>versió MoneyBagCoin</translation>
+        <source>DrumpfCoin version</source>
+        <translation>versió DrumpfCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2689,8 +2689,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or moneybagcoind</source>
-        <translation>Enviar comandes a -server o moneybagcoind</translation>
+        <source>Send command to -server or drumpfcoind</source>
+        <translation>Enviar comandes a -server o drumpfcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2709,13 +2709,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: MoneyBagCoin.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: MoneyBagCoin.conf)</translation>
+        <source>Specify configuration file (default: DrumpfCoin.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: DrumpfCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: moneybagcoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: moneybagcoind.pid)</translation>
+        <source>Specify pid file (default: drumpfcoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: drumpfcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2732,13 +2732,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=moneybagcoinuser
+rpcuser=drumpfcoinuser
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DrumpfCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2844,8 +2844,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MoneyBagCoin will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni MoneyBagCoin no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DrumpfCoin will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni DrumpfCoin no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3152,7 +3152,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. MoneyBagCoin is shutting down.</source>
+        <source>Initialization sanity check failed. DrumpfCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3217,13 +3217,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MoneyBagCoin</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de MoneyBagCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DrumpfCoin</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de DrumpfCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart MoneyBagCoin to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar MoneyBagCoin per completar</translation>
+        <source>Wallet needed to be rewritten: restart DrumpfCoin to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar DrumpfCoin per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3287,8 +3287,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. MoneyBagCoin is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. MoneyBagCoin probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. DrumpfCoin is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. DrumpfCoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3327,7 +3327,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. MoneyBagCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. DrumpfCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

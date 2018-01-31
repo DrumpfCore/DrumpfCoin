@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleExecutable</key>
-	<string>MoneyBagCoin</string>
+	<string>DrumpfCoin</string>
 	<key>CFBundleGetInfoString</key>
-	<string>MoneyBagCoin</string>
+	<string>DrumpfCoin</string>
 	<key>CFBundleIconFile</key>
-	<string>MoneyBagCoin.icns</string>
+	<string>DrumpfCoin.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.moneybagcoin.MoneyBagCoin-Qt</string>
+	<string>com.drumpfcoin.DrumpfCoin-Qt</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>NOTE</key>
-	<string>Wallet for MoneyBagCoin X11+POS+MasterNodes</string>
+	<string>Wallet for DrumpfCoin X11+POS+MasterNodes</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>NSSupportsAutomaticGraphicsSwitching</key>

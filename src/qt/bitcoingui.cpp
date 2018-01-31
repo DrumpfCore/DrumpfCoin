@@ -90,7 +90,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
 {
     //resize(970, 570);
 	resize(1080, 662);
-    setWindowTitle(tr("MoneyBagCoin") + " - " + tr("Wallet"));
+    setWindowTitle(tr("DrumpfCoin") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -98,8 +98,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     //setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
 #endif
-    setObjectName("MoneyBagCoin");
-    setStyleSheet("#MoneyBagCoin { background-color: #f9f9f9);  }"
+    setObjectName("DrumpfCoin");
+    setStyleSheet("#DrumpfCoin { background-color: #f9f9f9);  }"
     "QMenu          { background: rgb(30,32,36); color: rgb(222,222,222); }"
     "QMenu::item:selected { background-color: rgb(48,140,198); }");
     // Accept D&D of URIs
@@ -268,7 +268,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a MoneyBagCoin address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a DrumpfCoin address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
     tabGroup->addAction(sendCoinsAction);
@@ -286,7 +286,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(addressBookAction);
 
     masternodeManagerAction = new QAction(QIcon(":/icons/bitcoin"), tr("&MoneyBag Nodes"), this);
-    masternodeManagerAction->setToolTip(tr("Show MoneyBagCoin Nodes status and configure your nodes."));
+    masternodeManagerAction->setToolTip(tr("Show DrumpfCoin Nodes status and configure your nodes."));
     masternodeManagerAction->setCheckable(true);
     tabGroup->addAction(masternodeManagerAction);
 
@@ -314,14 +314,14 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(tr("&About MoneyBagCoin"), this);
-    aboutAction->setToolTip(tr("Show information about MoneyBagCoin"));
+    aboutAction = new QAction(tr("&About DrumpfCoin"), this);
+    aboutAction->setToolTip(tr("Show information about DrumpfCoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for MoneyBagCoin"));
+    optionsAction->setToolTip(tr("Modify configuration options for DrumpfCoin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(tr("&Encrypt Wallet..."), this);
@@ -448,7 +448,7 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
 #endif
             if(trayIcon)
             {
-                trayIcon->setToolTip(tr("MoneyBagCoin client") + QString(" ") + tr("[testnet]"));
+                trayIcon->setToolTip(tr("DrumpfCoin client") + QString(" ") + tr("[testnet]"));
                 trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -523,7 +523,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("MoneyBagCoin client"));
+    trayIcon->setToolTip(tr("DrumpfCoin client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -593,7 +593,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = fUseBlackTheme ? ":/icons/black/connect_4" : ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to MoneyBagCoin network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to DrumpfCoin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)
@@ -678,7 +678,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
 void BitcoinGUI::message(const QString &title, const QString &message, bool modal, unsigned int style)
 {
-    QString strTitle = tr("MoneyBagCoin") + " - ";
+    QString strTitle = tr("DrumpfCoin") + " - ";
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -952,7 +952,7 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             gotoSendCoinsPage();
         else
-            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid MoneyBagCoin address or malformed URI parameters."));
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid DrumpfCoin address or malformed URI parameters."));
     }
 
     event->acceptProposedAction();
@@ -967,7 +967,7 @@ void BitcoinGUI::handleURI(QString strURI)
         gotoSendCoinsPage();
     }
     else
-        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid MoneyBagCoin address or malformed URI parameters."));
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid DrumpfCoin address or malformed URI parameters."));
 }
 
 void BitcoinGUI::setEncryptionStatus(int status)

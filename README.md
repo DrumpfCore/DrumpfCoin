@@ -1,7 +1,7 @@
 # MoneyBag Coin Specifications:
 - POW+POS+MasterNodes
 - Algo: X11
-- Symbol: MNB
+- Symbol: YUGE
 - Block time: 60 seconds
 - Last POW block: 250000
 - Recalculated difficulty: Every block
@@ -13,31 +13,31 @@
 - RPC Port: 43211
 - Testnet P2P Port: 43212
 - Testnet RPC Port: 43213
-- Masternodes Creation: 30000 MNB
+- Masternodes Creation: 30000 YUGE
 - Masternode reward: 75% From POS
 - Min Stake: 48h
 - Premine 3% 1.5M
-- Min TX Fee: 0.0001 MNB
+- Min TX Fee: 0.0001 YUGE
 
 - POS BLOCKS REWARDS:
-    - From block 1 to  20000 : 10 MNB
-    - From block 20001 to 40000 : 20 MNB
-    - From block 40001 to 80000 : 40 MNB
-    - From block 80001 to 110000 : 60 MNB
-    - From block 110001 to 155000 : 80 MNB
-    - From block 155001 to 250000 : 40 MNB
-    - From block 250001 to end : 20 MNB
+    - From block 1 to  20000 : 10 YUGE
+    - From block 20001 to 40000 : 20 YUGE
+    - From block 40001 to 80000 : 40 YUGE
+    - From block 80001 to 110000 : 60 YUGE
+    - From block 110001 to 155000 : 80 YUGE
+    - From block 155001 to 250000 : 40 YUGE
+    - From block 250001 to end : 20 YUGE
 
  - MASTERNODE REWARDS (75% FROM POS BLOCKS):
-    - From block 1 to  15000 : 7.5 MNB
-    - From block 15001 to 40000 : 15 MNB
-    - From block 40001 to 80000 : 30 MNB
-    - From block 80001 to 110000 : 45 MNB
-    - From block 110001 to 155000 : 60 MNB
-    - From block 155001 to 250000 : 30 MNB
-    - From block 250001 to end : 15 MNB
+    - From block 1 to  15000 : 7.5 YUGE
+    - From block 15001 to 40000 : 15 YUGE
+    - From block 40001 to 80000 : 30 YUGE
+    - From block 80001 to 110000 : 45 YUGE
+    - From block 110001 to 155000 : 60 YUGE
+    - From block 155001 to 250000 : 30 YUGE
+    - From block 250001 to end : 15 YUGE
 
 - POW REWARDS:
-    - From block 1 to  100 : 0 MNB (AntiInstamine)
-    - From block 100 to  100000 : 50 MNB
-    - From block 100.001 to 250000 : 25 MNB
+    - From block 1 to  100 : 0 YUGE (AntiInstamine)
+    - From block 100 to  100000 : 50 YUGE
+    - From block 100.001 to 250000 : 25 YUGE

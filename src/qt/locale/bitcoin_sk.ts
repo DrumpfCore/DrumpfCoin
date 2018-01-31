@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About MoneyBagCoin</source>
-        <translation>O MoneyBagCoine</translation>
+        <source>About DrumpfCoin</source>
+        <translation>O DrumpfCoine</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;MoneyBagCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;MoneyBagCoin&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;DrumpfCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;DrumpfCoin&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2017 The MoneyBagCoin developers</source>
+Copyright © 2017 The DrumpfCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2017 The MoneyBagCoin developers</translation>
+Copyright © 2017 The DrumpfCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your MoneyBagCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše MoneyBagCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your DrumpfCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše DrumpfCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a MoneyBagCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto MoneyBagCoin adresu</translation>
+        <source>Sign a message to prove you own a DrumpfCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto DrumpfCoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified MoneyBagCoin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou MoneyBagCoin adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified DrumpfCoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou DrumpfCoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>MoneyBagCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>MoneyBagCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>DrumpfCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>DrumpfCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about MoneyBagCoin</source>
-        <translation>Zobraziť informácie o MoneyBagCoin</translation>
+        <source>Show information about DrumpfCoin</source>
+        <translation>Zobraziť informácie o DrumpfCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a MoneyBagCoin address</source>
-        <translation>Poslať mince na MoneyBagCoin adresu</translation>
+        <source>Send coins to a DrumpfCoin address</source>
+        <translation>Poslať mince na DrumpfCoin adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for MoneyBagCoin</source>
-        <translation>Upraviť možnosti konfigurácie pre MoneyBagCoin</translation>
+        <source>Modify configuration options for DrumpfCoin</source>
+        <translation>Upraviť možnosti konfigurácie pre DrumpfCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>MoneyBagCoin</source>
-        <translation>MoneyBagCoin</translation>
+        <source>DrumpfCoin</source>
+        <translation>DrumpfCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -453,8 +453,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About MoneyBagCoin</source>
-        <translation>&amp;O MoneyBagCoin</translation>
+        <source>&amp;About DrumpfCoin</source>
+        <translation>&amp;O DrumpfCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>MoneyBagCoin client</source>
-        <translation>MoneyBagCoin klient</translation>
+        <source>DrumpfCoin client</source>
+        <translation>DrumpfCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to MoneyBagCoin network</source>
-        <translation><numerusform>%n aktívne spojenie s MoneyBagCoin sieťov</numerusform><numerusform>%n aktívnych spojení s MoneyBagCoin sieťov</numerusform><numerusform>%n aktívnych spojení s MoneyBagCoin sieťou</numerusform></translation>
+        <source>%n active connection(s) to DrumpfCoin network</source>
+        <translation><numerusform>%n aktívne spojenie s DrumpfCoin sieťov</numerusform><numerusform>%n aktívnych spojení s DrumpfCoin sieťov</numerusform><numerusform>%n aktívnych spojení s DrumpfCoin sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -604,8 +604,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid MoneyBagCoin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou MoneyBagCoin adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DrumpfCoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou DrumpfCoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -727,8 +727,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. MoneyBagCoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. MoneyBagCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. DrumpfCoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. DrumpfCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MoneyBagCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou MoneyBagCoin adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DrumpfCoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou DrumpfCoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>MoneyBagCoin-Qt</source>
-        <translation>MoneyBagCoin-Qt</translation>
+        <source>DrumpfCoin-Qt</source>
+        <translation>DrumpfCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start MoneyBagCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť MoneyBagCoin po prihlásení sa do systému.</translation>
+        <source>Automatically start DrumpfCoin after logging in to the system.</source>
+        <translation>Automaticky spustiť DrumpfCoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MoneyBagCoin on system login</source>
-        <translation>&amp;Spustiť MoneyBagCoin pri prihlásení do systému</translation>
+        <source>&amp;Start DrumpfCoin on system login</source>
+        <translation>&amp;Spustiť DrumpfCoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1168,8 +1168,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the MoneyBagCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta MoneyBagCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the DrumpfCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta DrumpfCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the MoneyBagCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti MoneyBagCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the DrumpfCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti DrumpfCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MoneyBagCoin.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní MoneyBagCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1320,8 +1320,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting MoneyBagCoin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní MoneyBagCoin.</translation>
+        <source>This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1339,8 +1339,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MoneyBagCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou MoneyBagCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DrumpfCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou DrumpfCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1413,8 +1413,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start MoneyBagCoin: click-to-pay handler</source>
-        <translation>MoneyBagCoin sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start DrumpfCoin: click-to-pay handler</source>
+        <translation>DrumpfCoin sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1581,8 +1581,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the MoneyBagCoin-Qt help message to get a list with possible MoneyBagCoin command-line options.</source>
-        <translation>Zobraziť MoneyBagCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku MoneyBagCoin.</translation>
+        <source>Show the DrumpfCoin-Qt help message to get a list with possible DrumpfCoin command-line options.</source>
+        <translation>Zobraziť DrumpfCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1601,13 +1601,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>MoneyBagCoin - Debug window</source>
-        <translation>MoneyBagCoin - Ladiace okno</translation>
+        <source>DrumpfCoin - Debug window</source>
+        <translation>DrumpfCoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>MoneyBagCoin Core</source>
-        <translation>Jadro MoneyBagCoin</translation>
+        <source>DrumpfCoin Core</source>
+        <translation>Jadro DrumpfCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1616,8 +1616,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MoneyBagCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte MoneyBagCoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the DrumpfCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte DrumpfCoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1626,8 +1626,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the MoneyBagCoin RPC console.</source>
-        <translation>Vitajte v konzole MoneyBagCoin RPC.</translation>
+        <source>Welcome to the DrumpfCoin RPC console.</source>
+        <translation>Vitajte v konzole DrumpfCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1820,8 +1820,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Zadajte MoneyBagCoin adresu (napr. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Zadajte DrumpfCoin adresu (napr. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1920,8 +1920,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid MoneyBagCoin address</source>
-        <translation>UPOZORNENIE: Neplatná MoneyBagCoin adresa</translation>
+        <source>WARNING: Invalid DrumpfCoin address</source>
+        <translation>UPOZORNENIE: Neplatná DrumpfCoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1994,8 +1994,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Zadajte MoneyBagCoin adresu (napr. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Zadajte DrumpfCoin adresu (napr. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
 </context>
 <context>
@@ -2055,8 +2055,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MoneyBagCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto MoneyBagCoin adresu</translation>
+        <source>Sign the message to prove you own this DrumpfCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto DrumpfCoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2087,8 +2087,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified MoneyBagCoin address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou MoneyBagCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified DrumpfCoin address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou DrumpfCoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2098,8 +2098,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Zadajte MoneyBagCoin adresu (napr. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Zadajte DrumpfCoin adresu (napr. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2108,8 +2108,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter MoneyBagCoin signature</source>
-        <translation>Zadajte MoneyBagCoin podpis</translation>
+        <source>Enter DrumpfCoin signature</source>
+        <translation>Zadajte DrumpfCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2687,8 +2687,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>MoneyBagCoin version</source>
-        <translation>MoneyBagCoin verzia</translation>
+        <source>DrumpfCoin version</source>
+        <translation>DrumpfCoin verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2697,8 +2697,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or moneybagcoind</source>
-        <translation>Pošli príkaz na -server alebo moneybagcoind</translation>
+        <source>Send command to -server or drumpfcoind</source>
+        <translation>Pošli príkaz na -server alebo drumpfcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2717,13 +2717,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: MoneyBagCoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: MoneyBagCoin.conf)</translation>
+        <source>Specify configuration file (default: DrumpfCoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: DrumpfCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: moneybagcoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: moneybagcoind.pid)</translation>
+        <source>Specify pid file (default: drumpfcoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: drumpfcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2740,24 +2740,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=moneybagcoinuser
+rpcuser=drumpfcoinuser
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DrumpfCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=moneybagcoinuser
+rpcuser=drumpfcoinuser
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;DrumpfCoin upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2862,8 +2862,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin upozornenie&quot; 
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MoneyBagCoin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny MoneyBagCoin nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DrumpfCoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny DrumpfCoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3169,8 +3169,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin upozornenie&quot; 
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. MoneyBagCoin is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. MoneyBagCoin sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. DrumpfCoin is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. DrumpfCoin sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3234,13 +3234,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin upozornenie&quot; 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MoneyBagCoin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu MoneyBagCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DrumpfCoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu DrumpfCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart MoneyBagCoin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte MoneyBagCoin k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart DrumpfCoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte DrumpfCoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3304,8 +3304,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin upozornenie&quot; 
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. MoneyBagCoin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. MoneyBagCoin je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. DrumpfCoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. DrumpfCoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3344,8 +3344,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin upozornenie&quot; 
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. MoneyBagCoin is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. MoneyBagCoin je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. DrumpfCoin is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. DrumpfCoin je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

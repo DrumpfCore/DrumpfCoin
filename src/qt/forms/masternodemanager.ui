@@ -95,7 +95,7 @@
            <item>
             <widget class="QLabel" name="label_2">
              <property name="text">
-              <string>MoneyBagCoin Nodes Count:</string>
+              <string>DrumpfCoin Nodes Count:</string>
              </property>
             </widget>
            </item>

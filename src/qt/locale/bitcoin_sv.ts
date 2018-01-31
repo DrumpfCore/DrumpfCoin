@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About MoneyBagCoin</source>
-        <translation>Vad du behöver veta om MoneyBagCoin</translation>
+        <source>About DrumpfCoin</source>
+        <translation>Vad du behöver veta om DrumpfCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;MoneyBagCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;MoneyBagCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;DrumpfCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;DrumpfCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2017 The MoneyBagCoin developers</source>
+Copyright © 2017 The DrumpfCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2017 The MoneyBagCoin developers</translation>
+Copyright © 2017 The DrumpfCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your MoneyBagCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dessa är dina MoneyBagCoin adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
+        <source>These are your DrumpfCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dessa är dina DrumpfCoin adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a MoneyBagCoin address</source>
-        <translation>Signera ett meddelande för att bevisa att du äger MoneyBagCoin adressen</translation>
+        <source>Sign a message to prove you own a DrumpfCoin address</source>
+        <translation>Signera ett meddelande för att bevisa att du äger DrumpfCoin adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified MoneyBagCoin address</source>
-        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik MoneyBagCoin adress</translation>
+        <source>Verify a message to ensure it was signed with a specified DrumpfCoin address</source>
+        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik DrumpfCoin adress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>MoneyBagCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>MoneyBagCoin plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
+        <source>DrumpfCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>DrumpfCoin plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about MoneyBagCoin</source>
-        <translation>Visa information om MoneyBagCoin</translation>
+        <source>Show information about DrumpfCoin</source>
+        <translation>Visa information om DrumpfCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a MoneyBagCoin address</source>
-        <translation>Skicka coins till en MoneyBagCoin adress</translation>
+        <source>Send coins to a DrumpfCoin address</source>
+        <translation>Skicka coins till en DrumpfCoin adress</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for MoneyBagCoin</source>
-        <translation>Modifiera konfigurations-alternativ för MoneyBagCoin</translation>
+        <source>Modify configuration options for DrumpfCoin</source>
+        <translation>Modifiera konfigurations-alternativ för DrumpfCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>MoneyBagCoin</source>
-        <translation>MoneyBagCoin</translation>
+        <source>DrumpfCoin</source>
+        <translation>DrumpfCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About MoneyBagCoin</source>
-        <translation>&amp;Om MoneyBagCoin</translation>
+        <source>&amp;About DrumpfCoin</source>
+        <translation>&amp;Om DrumpfCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>MoneyBagCoin client</source>
-        <translation>MoneyBagCoin klient</translation>
+        <source>DrumpfCoin client</source>
+        <translation>DrumpfCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to MoneyBagCoin network</source>
-        <translation><numerusform>%n aktiv anslutning till MoneyBagCoin nätverket</numerusform><numerusform>%n aktiva anslutning till MoneyBagCoin nätverket</numerusform></translation>
+        <source>%n active connection(s) to DrumpfCoin network</source>
+        <translation><numerusform>%n aktiv anslutning till DrumpfCoin nätverket</numerusform><numerusform>%n aktiva anslutning till DrumpfCoin nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adress: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid MoneyBagCoin address or malformed URI parameters.</source>
-        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig MoneyBagCoin adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DrumpfCoin address or malformed URI parameters.</source>
+        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig DrumpfCoin adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. MoneyBagCoin can no longer continue safely and will quit.</source>
-        <translation>Ett fatalt fel uppstod. MoneyBagCoin kan inte fortsätta och stänger programmet.</translation>
+        <source>A fatal error occurred. DrumpfCoin can no longer continue safely and will quit.</source>
+        <translation>Ett fatalt fel uppstod. DrumpfCoin kan inte fortsätta och stänger programmet.</translation>
     </message>
 </context>
 <context>
@@ -1018,7 +1018,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Namnet som kopplats till denna MoneyBagCoin-adress</translation>
+        <translation>Namnet som kopplats till denna DrumpfCoin-adress</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1057,8 +1057,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MoneyBagCoin address.</source>
-        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig MoneyBagCoin adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DrumpfCoin address.</source>
+        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig DrumpfCoin adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>MoneyBagCoin-Qt</source>
-        <translation>MoneyBagCoin-Qt</translation>
+        <source>DrumpfCoin-Qt</source>
+        <translation>DrumpfCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start MoneyBagCoin after logging in to the system.</source>
-        <translation>Starta MoneyBagCoin automatiskt vid inloggning.</translation>
+        <source>Automatically start DrumpfCoin after logging in to the system.</source>
+        <translation>Starta DrumpfCoin automatiskt vid inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MoneyBagCoin on system login</source>
-        <translation>&amp;Starta MoneyBagCoin vid inloggning</translation>
+        <source>&amp;Start DrumpfCoin on system login</source>
+        <translation>&amp;Starta DrumpfCoin vid inloggning</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the MoneyBagCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt MoneyBagCoin klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
+        <source>Automatically open the DrumpfCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt DrumpfCoin klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the MoneyBagCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till MoneyBagCoin nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
+        <source>Connect to the DrumpfCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Anslut till DrumpfCoin nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MoneyBagCoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av MoneyBagCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting MoneyBagCoin.</source>
-        <translation>Inställningen börjar gälla efter omstart av MoneyBagCoin.</translation>
+        <source>This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>Inställningen börjar gälla efter omstart av DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MoneyBagCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med MoneyBagCoin nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DrumpfCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med DrumpfCoin nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1409,7 +1409,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start MoneyBagCoin: click-to-pay handler</source>
+        <source>Cannot start DrumpfCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1577,8 +1577,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the MoneyBagCoin-Qt help message to get a list with possible MoneyBagCoin command-line options.</source>
-        <translation>Visa MoneyBagCoin-Qt hjälp meddelandet för att få en lista över möjliga MoneyBagCoin kommandoradsalternativ.</translation>
+        <source>Show the DrumpfCoin-Qt help message to get a list with possible DrumpfCoin command-line options.</source>
+        <translation>Visa DrumpfCoin-Qt hjälp meddelandet för att få en lista över möjliga DrumpfCoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>MoneyBagCoin - Debug window</source>
-        <translation>MoneyBagCoin - Felsökningsfönster</translation>
+        <source>DrumpfCoin - Debug window</source>
+        <translation>DrumpfCoin - Felsökningsfönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>MoneyBagCoin Core</source>
-        <translation>MoneyBagCoin Core</translation>
+        <source>DrumpfCoin Core</source>
+        <translation>DrumpfCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MoneyBagCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna MoneyBagCoin felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
+        <source>Open the DrumpfCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna DrumpfCoin felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the MoneyBagCoin RPC console.</source>
-        <translation>Välkommen till MoneyBagCoin RPC konsoll.</translation>
+        <source>Welcome to the DrumpfCoin RPC console.</source>
+        <translation>Välkommen till DrumpfCoin RPC konsoll.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1816,8 +1816,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Fyll i en MoneyBagCoin adress (t.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Fyll i en DrumpfCoin adress (t.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid MoneyBagCoin address</source>
-        <translation>VARNING: Ogiltig MoneyBagCoin adress</translation>
+        <source>WARNING: Invalid DrumpfCoin address</source>
+        <translation>VARNING: Ogiltig DrumpfCoin adress</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Fyll i en MoneyBagCoin adress (t.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Fyll i en DrumpfCoin adress (t.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MoneyBagCoin address</source>
-        <translation>Signera meddelandet för att verifiera att du äger denna MoneyBagCoin adressen</translation>
+        <source>Sign the message to prove you own this DrumpfCoin address</source>
+        <translation>Signera meddelandet för att verifiera att du äger denna DrumpfCoin adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified MoneyBagCoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna MoneyBagCoin adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified DrumpfCoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna DrumpfCoin adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Fyll i en MoneyBagCoin adress (t.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Fyll i en DrumpfCoin adress (t.ex. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter MoneyBagCoin signature</source>
-        <translation>Fyll i MoneyBagCoin signatur</translation>
+        <source>Enter DrumpfCoin signature</source>
+        <translation>Fyll i DrumpfCoin signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>MoneyBagCoin version</source>
-        <translation>MoneyBagCoin version</translation>
+        <source>DrumpfCoin version</source>
+        <translation>DrumpfCoin version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or moneybagcoind</source>
-        <translation>Skicka kommando till -server eller moneybagcoind</translation>
+        <source>Send command to -server or drumpfcoind</source>
+        <translation>Skicka kommando till -server eller drumpfcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: MoneyBagCoin.conf)</source>
-        <translation>Ange konfigurationsfilen (standard: MoneyBagCoin.conf)</translation>
+        <source>Specify configuration file (default: DrumpfCoin.conf)</source>
+        <translation>Ange konfigurationsfilen (standard: DrumpfCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: moneybagcoind.pid)</source>
-        <translation>Ange pid filen (standard moneybagcoind.pid)</translation>
+        <source>Specify pid file (default: drumpfcoind.pid)</source>
+        <translation>Ange pid filen (standard drumpfcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=moneybagcoinuser
+rpcuser=drumpfcoinuser
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DrumpfCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MoneyBagCoin will not work properly.</source>
-        <translation>Varning: Kolla att din dators tid och datum är rätt. MoneyBagCoin kan inte fungera ordentligt om tiden i datorn är fel.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DrumpfCoin will not work properly.</source>
+        <translation>Varning: Kolla att din dators tid och datum är rätt. DrumpfCoin kan inte fungera ordentligt om tiden i datorn är fel.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. MoneyBagCoin is shutting down.</source>
+        <source>Initialization sanity check failed. DrumpfCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MoneyBagCoin</source>
-        <translation>Kunde inte ladda wallet.dat: En nyare version av MoneyBagCoin krävs</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DrumpfCoin</source>
+        <translation>Kunde inte ladda wallet.dat: En nyare version av DrumpfCoin krävs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart MoneyBagCoin to complete</source>
-        <translation>Plånboken måste skrivas om: Starta om MoneyBagCoin för att slutföra</translation>
+        <source>Wallet needed to be rewritten: restart DrumpfCoin to complete</source>
+        <translation>Plånboken måste skrivas om: Starta om DrumpfCoin för att slutföra</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. MoneyBagCoin is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. MoneyBagCoin är sannolikt redan startad.</translation>
+        <source>Unable to bind to %s on this computer. DrumpfCoin is probably already running.</source>
+        <translation>Kan inte binda till %s på denna dator. DrumpfCoin är sannolikt redan startad.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. MoneyBagCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. DrumpfCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

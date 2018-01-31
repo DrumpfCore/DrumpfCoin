@@ -84,7 +84,7 @@
             <item>
              <widget class="QLabel" name="labelWalletStatus">
               <property name="toolTip">
-               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the MoneyBagCoin network after a connection is established, but this process has not completed yet.</string>
+               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the DrumpfCoin network after a connection is established, but this process has not completed yet.</string>
               </property>
               <property name="styleSheet">
                <string notr="true">QLabel { color: red; }</string>
@@ -418,7 +418,7 @@
              <string notr="true">color: rgb(0, 0, 0);</string>
             </property>
             <property name="text">
-             <string>0 MoneyBagCoin</string>
+             <string>0 DrumpfCoin</string>
             </property>
            </widget>
           </item>
@@ -438,7 +438,7 @@
              <string notr="true">color: rgb(0, 0, 0);</string>
             </property>
             <property name="text">
-             <string>0 MoneyBagCoin / 0 Rounds</string>
+             <string>0 DrumpfCoin / 0 Rounds</string>
             </property>
            </widget>
           </item>
@@ -580,7 +580,7 @@
             <item>
              <widget class="QLabel" name="labelTransactionsStatus">
               <property name="toolTip">
-               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the MoneyBagCoin network after a connection is established, but this process has not completed yet.</string>
+               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the DrumpfCoin network after a connection is established, but this process has not completed yet.</string>
               </property>
               <property name="styleSheet">
                <string notr="true">QLabel { color: red; }</string>

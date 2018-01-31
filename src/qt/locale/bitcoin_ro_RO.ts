@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About MoneyBagCoin</source>
-        <translation>Despre MoneyBagCoin</translation>
+        <source>About DrumpfCoin</source>
+        <translation>Despre DrumpfCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;MoneyBagCoin&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;MoneyBagCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;DrumpfCoin&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;DrumpfCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2017 The MoneyBagCoin developers</source>
+Copyright © 2017 The DrumpfCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2017 The MoneyBagCoin developers</translation>
+Copyright © 2017 The DrumpfCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your MoneyBagCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele MoneyBagCoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+        <source>These are your DrumpfCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele DrumpfCoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a MoneyBagCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă MoneyBagCoin</translation>
+        <source>Sign a message to prove you own a DrumpfCoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă DrumpfCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified MoneyBagCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă MoneyBagCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified DrumpfCoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă DrumpfCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>MoneyBagCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>MoneyBagCoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source>DrumpfCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>DrumpfCoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about MoneyBagCoin</source>
-        <translation>Arată informații despre MoneyBagCoin</translation>
+        <source>Show information about DrumpfCoin</source>
+        <translation>Arată informații despre DrumpfCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a MoneyBagCoin address</source>
-        <translation>Trimite monede către o adresă MoneyBagCoin</translation>
+        <source>Send coins to a DrumpfCoin address</source>
+        <translation>Trimite monede către o adresă DrumpfCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for MoneyBagCoin</source>
-        <translation>Modifică opțiuni de configurare pentru MoneyBagCoin</translation>
+        <source>Modify configuration options for DrumpfCoin</source>
+        <translation>Modifică opțiuni de configurare pentru DrumpfCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>MoneyBagCoin</source>
-        <translation>MoneyBagCoin</translation>
+        <source>DrumpfCoin</source>
+        <translation>DrumpfCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About MoneyBagCoin</source>
-        <translation>Despre MoneyBagCoin</translation>
+        <source>&amp;About DrumpfCoin</source>
+        <translation>Despre DrumpfCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>MoneyBagCoin client</source>
-        <translation>Clientul MoneyBagCoin</translation>
+        <source>DrumpfCoin client</source>
+        <translation>Clientul DrumpfCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to MoneyBagCoin network</source>
-        <translation><numerusform>%n conexiune activă la reteaua MoneyBagCoin</numerusform><numerusform>%n conexiuni active la reteaua MoneyBagCoin</numerusform><numerusform>%n conexiuni active la reteaua MoneyBagCoin</numerusform></translation>
+        <source>%n active connection(s) to DrumpfCoin network</source>
+        <translation><numerusform>%n conexiune activă la reteaua DrumpfCoin</numerusform><numerusform>%n conexiuni active la reteaua DrumpfCoin</numerusform><numerusform>%n conexiuni active la reteaua DrumpfCoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid MoneyBagCoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa MoneyBagCoin invalidă sau parametrii URI malformați.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DrumpfCoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa DrumpfCoin invalidă sau parametrii URI malformați.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. MoneyBagCoin can no longer continue safely and will quit.</source>
-        <translation>A apărut o eroare fatală. MoneyBagCoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
+        <source>A fatal error occurred. DrumpfCoin can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. DrumpfCoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MoneyBagCoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă MoneyBagCoin validă</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DrumpfCoin address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă DrumpfCoin validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>MoneyBagCoin-Qt</source>
-        <translation>MoneyBagCoin-Qt</translation>
+        <source>DrumpfCoin-Qt</source>
+        <translation>DrumpfCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start MoneyBagCoin after logging in to the system.</source>
-        <translation>Pornește MoneyBagCoin imdiat după logarea în sistem</translation>
+        <source>Automatically start DrumpfCoin after logging in to the system.</source>
+        <translation>Pornește DrumpfCoin imdiat după logarea în sistem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MoneyBagCoin on system login</source>
-        <translation>$Pornește MoneyBagCoin la logarea în sistem</translation>
+        <source>&amp;Start DrumpfCoin on system login</source>
+        <translation>$Pornește DrumpfCoin la logarea în sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the MoneyBagCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat portul pentru cientul MoneyBagCoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+        <source>Automatically open the DrumpfCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul DrumpfCoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the MoneyBagCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conecteaza la reteaua MoneyBagCoin prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
+        <source>Connect to the DrumpfCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecteaza la reteaua DrumpfCoin prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MoneyBagCoin.</source>
-        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea MoneyBagCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting MoneyBagCoin.</source>
-        <translation>Aceasta setare va avea efect dupa repornirea MoneyBagCoin.</translation>
+        <source>This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MoneyBagCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua MoneyBagCoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DrumpfCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua DrumpfCoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1409,7 +1409,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start MoneyBagCoin: click-to-pay handler</source>
+        <source>Cannot start DrumpfCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1577,8 +1577,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the MoneyBagCoin-Qt help message to get a list with possible MoneyBagCoin command-line options.</source>
-        <translation>Afișa mesajul de ajutor MoneyBagCoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă MoneyBagCoin.</translation>
+        <source>Show the DrumpfCoin-Qt help message to get a list with possible DrumpfCoin command-line options.</source>
+        <translation>Afișa mesajul de ajutor DrumpfCoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă DrumpfCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>MoneyBagCoin - Debug window</source>
-        <translation>MoneyBagCoin - fereastră depanare</translation>
+        <source>DrumpfCoin - Debug window</source>
+        <translation>DrumpfCoin - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>MoneyBagCoin Core</source>
-        <translation>MoneyBagCoin Core</translation>
+        <source>DrumpfCoin Core</source>
+        <translation>DrumpfCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MoneyBagCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschideti fisierul de depanare MoneyBagCoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+        <source>Open the DrumpfCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare DrumpfCoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the MoneyBagCoin RPC console.</source>
-        <translation>Bine ati venit la consola MoneyBagCoin RPC.</translation>
+        <source>Welcome to the DrumpfCoin RPC console.</source>
+        <translation>Bine ati venit la consola DrumpfCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1816,8 +1816,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Introduceți o adresă MoneyBagCoin(ex:MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Introduceți o adresă DrumpfCoin(ex:MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid MoneyBagCoin address</source>
-        <translation>Atenție: Adresă MoneyBagCoin invalidă</translation>
+        <source>WARNING: Invalid DrumpfCoin address</source>
+        <translation>Atenție: Adresă DrumpfCoin invalidă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Introduceți o adresă MoneyBagCoin(ex:MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Introduceți o adresă DrumpfCoin(ex:MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MoneyBagCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă MoneyBagCoin</translation>
+        <source>Sign the message to prove you own this DrumpfCoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă DrumpfCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified MoneyBagCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă MoneyBagCoin</translation>
+        <source>Verify the message to ensure it was signed with the specified DrumpfCoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă DrumpfCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a MoneyBagCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
-        <translation>Introduceți o adresă MoneyBagCoin(ex:MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
+        <source>Enter a DrumpfCoin address (e.g. MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</source>
+        <translation>Introduceți o adresă DrumpfCoin(ex:MrBD1wq3nSdpefyQXhLQuXQWAk7Jd7o474)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter MoneyBagCoin signature</source>
-        <translation>Introduceti semnatura MoneyBagCoin</translation>
+        <source>Enter DrumpfCoin signature</source>
+        <translation>Introduceti semnatura DrumpfCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>MoneyBagCoin version</source>
-        <translation>Versiune MoneyBagCoin</translation>
+        <source>DrumpfCoin version</source>
+        <translation>Versiune DrumpfCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or moneybagcoind</source>
-        <translation>Trimite comanda catre server sau moneybagcoind</translation>
+        <source>Send command to -server or drumpfcoind</source>
+        <translation>Trimite comanda catre server sau drumpfcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: MoneyBagCoin.conf)</source>
-        <translation>Specifica fisier de configurare(implicit: MoneyBagCoin.conf)</translation>
+        <source>Specify configuration file (default: DrumpfCoin.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: DrumpfCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: moneybagcoind.pid)</source>
-        <translation>Speficica fisier pid(implicit: MoneyBagCoin.pid)</translation>
+        <source>Specify pid file (default: drumpfcoind.pid)</source>
+        <translation>Speficica fisier pid(implicit: DrumpfCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=moneybagcoinuser
+rpcuser=drumpfcoinuser
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DrumpfCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MoneyBagCoin will not work properly.</source>
-        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit MoneyBagCoin nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DrumpfCoin will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit DrumpfCoin nu va functiona corect.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. MoneyBagCoin is shutting down.</source>
+        <source>Initialization sanity check failed. DrumpfCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MoneyBagCoin</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de MoneyBagCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DrumpfCoin</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de DrumpfCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart MoneyBagCoin to complete</source>
-        <translation>A fost nevoie de rescrierea portofelului: restartați MoneyBagCoin pentru a finaliza</translation>
+        <source>Wallet needed to be rewritten: restart DrumpfCoin to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați DrumpfCoin pentru a finaliza</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. MoneyBagCoin is probably already running.</source>
-        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil MoneyBagCoin ruleaza</translation>
+        <source>Unable to bind to %s on this computer. DrumpfCoin is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil DrumpfCoin ruleaza</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MoneyBagCoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. MoneyBagCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. DrumpfCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

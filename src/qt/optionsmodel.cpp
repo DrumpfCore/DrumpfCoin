@@ -51,11 +51,11 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
 
-    if (!settings.contains("nAnonymizeMoneyBagCoinAmount"))
-        settings.setValue("nAnonymizeMoneyBagCoinAmount", 1000);
+    if (!settings.contains("nAnonymizeDrumpfCoinAmount"))
+        settings.setValue("nAnonymizeDrumpfCoinAmount", 1000);
 
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    nAnonymizeMoneyBagCoinAmount = settings.value("nAnonymizeMoneyBagCoinAmount").toLongLong();
+    nAnonymizeDrumpfCoinAmount = settings.value("nAnonymizeDrumpfCoinAmount").toLongLong();
 
     // These are shared with core Bitcoin; we want
     // command-line options to override the GUI settings:
@@ -70,8 +70,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeMoneyBagCoinAmount"))
-        SoftSetArg("-anonymizeMoneyBagCoinamount", settings.value("nAnonymizeMoneyBagCoinAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeDrumpfCoinAmount"))
+        SoftSetArg("-anonymizeDrumpfCoinamount", settings.value("nAnonymizeDrumpfCoinAmount").toString().toStdString());
 }
 
 int OptionsModel::rowCount(const QModelIndex & parent) const
@@ -216,10 +216,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case anonymizeMoneyBagCoinAmount:
-            nAnonymizeMoneyBagCoinAmount = value.toInt();
-            settings.setValue("nAnonymizeMoneyBagCoinAmount", nAnonymizeMoneyBagCoinAmount);
-            emit anonymizeMoneyBagCoinAmountChanged(nAnonymizeMoneyBagCoinAmount);
+        case anonymizeDrumpfCoinAmount:
+            nAnonymizeDrumpfCoinAmount = value.toInt();
+            settings.setValue("nAnonymizeDrumpfCoinAmount", nAnonymizeDrumpfCoinAmount);
+            emit anonymizeDrumpfCoinAmountChanged(nAnonymizeDrumpfCoinAmount);
             break;
         default:
             break;

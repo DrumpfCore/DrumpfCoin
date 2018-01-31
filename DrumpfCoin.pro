@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = MoneyBagCoin-qt
+TARGET = DrumpfCoin-qt
 VERSION = 1.1.0.0
 INCLUDEPATH += src src/json src/qt src/qt/plugins/mrichtexteditor
 DEFINES += ENABLE_WALLET
@@ -531,8 +531,8 @@ macx:HEADERS += src/qt/macdockiconhandler.h src/qt/macnotificationhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm src/qt/macnotificationhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/MoneyBagCoin.icns
-macx:TARGET = "MoneyBagCoin"
+macx:ICON = src/qt/res/icons/DrumpfCoin.icns
+macx:TARGET = "DrumpfCoin"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

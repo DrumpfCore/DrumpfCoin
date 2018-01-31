@@ -1154,13 +1154,13 @@ int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
 }
 
 // - POS BLOCKS REWARDS:
-//     - From block 1 to  20000 : 10 MNB
-//     - From block 15001 to 40000 : 20 MNB
-//     - From block 40001 to 80000 : 40 MNB
-//     - From block 80001 to 110000 : 60 MNB
-//     - From block 110001 to 155000 : 80 MNB
-//     - From block 155001 to 250000 : 40 MNB
-//     - From block 250001 to end : 20 MNB
+//     - From block 1 to  20000 : 10 YUGE
+//     - From block 15001 to 40000 : 20 YUGE
+//     - From block 40001 to 80000 : 40 YUGE
+//     - From block 80001 to 110000 : 60 YUGE
+//     - From block 110001 to 155000 : 80 YUGE
+//     - From block 155001 to 250000 : 40 YUGE
+//     - From block 250001 to end : 20 YUGE
 
 // miner's coin stake reward based on coin age spent (coin-days)
 int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees, int nHeight)
@@ -2741,7 +2741,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
 }
 
 #ifdef ENABLE_WALLET
-// MoneyBagCoin: attempt to generate suitable proof-of-stake
+// DrumpfCoin: attempt to generate suitable proof-of-stake
 bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
     // if we are trying to sign
@@ -3073,7 +3073,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("MoneyBagCoin-loadblk");
+    RenameThread("DrumpfCoin-loadblk");
 
     CImportingNow imp;
 
