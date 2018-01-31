@@ -166,7 +166,7 @@ public:
 
 
 // -- get at the data
-class CDigimoneycoinAddress_B : public CDigimoneycoinAddress
+class CDrumpfCoincoinAddress_B : public CDrumpfCoincoinAddress
 {
 public:
     uint8_t getVersion()

@@ -52,12 +52,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Digimoney version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("DrumpfCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  digimoneyd [options]                     " + "\n" +
-                  "  digimoneyd [options] <command> [params]  " + _("Send command to -server or digimoneyd") + "\n" +
-                  "  digimoneyd [options] help                " + _("List commands") + "\n" +
-                  "  digimoneyd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  drumpfcoind [options]                     " + "\n" +
+                  "  drumpfcoind [options] <command> [params]  " + _("Send command to -server or drumpfcoind") + "\n" +
+                  "  drumpfcoind [options] help                " + _("List commands") + "\n" +
+                  "  drumpfcoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -67,7 +67,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "digimoney:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "drumpfcoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)

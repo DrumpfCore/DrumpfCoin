@@ -1229,7 +1229,7 @@ sph_bswap64(sph_u64 x)
 
 /*
  * Disabled code. Apparently, Microsoft Visual C 2005 is smart enough
- * to generate proper opcodes for endianness swapping with the digimoney C
+ * to generate proper opcodes for endianness swapping with the drumpfcoin C
  * implementation below.
  *
 

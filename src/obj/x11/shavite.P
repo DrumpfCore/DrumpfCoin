@@ -1,0 +1,4 @@
+obj/x11/shavite.o: x11/shavite.c x11/sph_shavite.h x11/sph_types.h \
+ x11/aes_helper.c
+x11/shavite.c x11/sph_shavite.h x11/sph_types.h :
+ x11/aes_helper.c :

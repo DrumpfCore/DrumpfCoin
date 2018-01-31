@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Digimoney</source>
-        <translation>Über Digimoney</translation>
+        <source>About DrumpfCoin</source>
+        <translation>Über DrumpfCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Digimoney&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Digimoney&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;DrumpfCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;DrumpfCoin&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Digimoney developers</source>
+Copyright © 2015-2017 The DrumpfCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,8 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Digimoney addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Das sind Ihre Digimoney Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt.</translation>
+        <source>These are your DrumpfCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Das sind Ihre DrumpfCoin Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -73,8 +73,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Digimoney address</source>
-        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine Digimoney Adresse besitzen</translation>
+        <source>Sign a message to prove you own a DrumpfCoin address</source>
+        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine DrumpfCoin Adresse besitzen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -88,8 +88,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Digimoney address</source>
-        <translation>Verifizieren Sie ob eine Nachricht einer bestimmten Digimoney Adresse signiert wurde</translation>
+        <source>Verify a message to ensure it was signed with a specified DrumpfCoin address</source>
+        <translation>Verifizieren Sie ob eine Nachricht einer bestimmten DrumpfCoin Adresse signiert wurde</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -256,8 +256,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Digimoney will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Digimoney wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihrer Wallet keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet</translation>
+        <source>DrumpfCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>DrumpfCoin wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihrer Wallet keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -350,8 +350,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Digimoney</source>
-        <translation>Informationen über Digimoney anzeigen</translation>
+        <source>Show information about DrumpfCoin</source>
+        <translation>Informationen über DrumpfCoin anzeigen</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,13 +390,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Digimoney address</source>
-        <translation>Senden Sie Coins an eine Digimoney Adresse</translation>
+        <source>Send coins to a DrumpfCoin address</source>
+        <translation>Senden Sie Coins an eine DrumpfCoin Adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Digimoney</source>
-        <translation>Konfigurationsoptionen für Digimoney ändern</translation>
+        <source>Modify configuration options for DrumpfCoin</source>
+        <translation>Konfigurationsoptionen für DrumpfCoin ändern</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -436,8 +436,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Digimoney</source>
-        <translation>Digimoney</translation>
+        <source>DrumpfCoin</source>
+        <translation>DrumpfCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -446,8 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Digimoney</source>
-        <translation>&amp;Über Digimoney</translation>
+        <source>&amp;About DrumpfCoin</source>
+        <translation>&amp;Über DrumpfCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,13 +498,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Digimoney client</source>
+        <source>DrumpfCoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Digimoney network</source>
-        <translation><numerusform>%n aktive Verbindung zum Digimoney Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Digimoney Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to DrumpfCoin network</source>
+        <translation><numerusform>%n aktive Verbindung zum DrumpfCoin Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum DrumpfCoin Netzwerk</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -597,8 +597,8 @@ Adresse: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Digimoney address or malformed URI parameters.</source>
-        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige Digimoney Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DrumpfCoin address or malformed URI parameters.</source>
+        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige DrumpfCoin Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -720,8 +720,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Digimoney can no longer continue safely and will quit.</source>
-        <translation>Ein fataler Fehler ist aufgetreten. Digimoney kann nicht fortgesetzt werden und wird beendet.</translation>
+        <source>A fatal error occurred. DrumpfCoin can no longer continue safely and will quit.</source>
+        <translation>Ein fataler Fehler ist aufgetreten. DrumpfCoin kann nicht fortgesetzt werden und wird beendet.</translation>
     </message>
 </context>
 <context>
@@ -1040,8 +1040,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Digimoney address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige Digimoney Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DrumpfCoin address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige DrumpfCoin Adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1059,7 +1059,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Digimoney-Qt</source>
+        <source>DrumpfCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1132,13 +1132,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Digimoney after logging in to the system.</source>
-        <translation>Automatisch Digimoney starten beim Einloggen in das System.</translation>
+        <source>Automatically start DrumpfCoin after logging in to the system.</source>
+        <translation>Automatisch DrumpfCoin starten beim Einloggen in das System.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Digimoney on system login</source>
-        <translation>&amp;Starte Digimoney bei Systemstart</translation>
+        <source>&amp;Start DrumpfCoin on system login</source>
+        <translation>&amp;Starte DrumpfCoin bei Systemstart</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1147,8 +1147,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Digimoney client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den Digimoney client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
+        <source>Automatically open the DrumpfCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den DrumpfCoin client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1157,7 +1157,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Digimoney network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the DrumpfCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1232,7 +1232,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Digimoney.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting DrumpfCoin.</source>
         <translation>Die Sprache der GUI kann hier verändert werden. Die Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1243,7 +1243,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von Digimoneys angezeigt werden soll.</translation>
+        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von DrumpfCoins angezeigt werden soll.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1299,7 +1299,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Digimoney.</source>
+        <source>This setting will take effect after restarting DrumpfCoin.</source>
         <translation>Diese Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1318,8 +1318,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Digimoney network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem Digimoney Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DrumpfCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem DrumpfCoin Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1560,7 +1560,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Digimoney-Qt help message to get a list with possible Digimoney command-line options.</source>
+        <source>Show the DrumpfCoin-Qt help message to get a list with possible DrumpfCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1580,13 +1580,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Digimoney - Debug window</source>
-        <translation>Digimoney - Debug Fenster</translation>
+        <source>DrumpfCoin - Debug window</source>
+        <translation>DrumpfCoin - Debug Fenster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Digimoney Core</source>
-        <translation>Digimoney Kern</translation>
+        <source>DrumpfCoin Core</source>
+        <translation>DrumpfCoin Kern</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1595,7 +1595,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Digimoney debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the DrumpfCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1605,7 +1605,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Digimoney RPC console.</source>
+        <source>Welcome to the DrumpfCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1714,7 +1714,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 DGM</source>
+        <source>0.00 YUGE</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1784,7 +1784,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 DGM</source>
+        <source>123.456 YUGE</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1799,7 +1799,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Digimoney address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a DrumpfCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1899,8 +1899,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Digimoney address</source>
-        <translation>Warnung: Ungültige Digimoney Adresse</translation>
+        <source>WARNING: Invalid DrumpfCoin address</source>
+        <translation>Warnung: Ungültige DrumpfCoin Adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1973,7 +1973,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Digimoney address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a DrumpfCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2034,8 +2034,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Digimoney address</source>
-        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser Digimoney Adresse bist.</translation>
+        <source>Sign the message to prove you own this DrumpfCoin address</source>
+        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser DrumpfCoin Adresse bist.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2066,7 +2066,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Digimoney address</source>
+        <source>Verify the message to ensure it was signed with the specified DrumpfCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2077,7 +2077,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Digimoney address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a DrumpfCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2087,8 +2087,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Digimoney signature</source>
-        <translation>Digimoney Signatur eingeben</translation>
+        <source>Enter DrumpfCoin signature</source>
+        <translation>DrumpfCoin Signatur eingeben</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2666,7 +2666,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Digimoney version</source>
+        <source>DrumpfCoin version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2676,8 +2676,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or digimoneyd</source>
-        <translation>Kommando versenden an -server oder digimoneyd </translation>
+        <source>Send command to -server or drumpfcoind</source>
+        <translation>Kommando versenden an -server oder drumpfcoind </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2696,13 +2696,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: digimoney.conf)</source>
-        <translation>Konfigurationsdatei angeben (Standard: digimoney.conf)</translation>
+        <source>Specify configuration file (default: drumpfcoin.conf)</source>
+        <translation>Konfigurationsdatei angeben (Standard: drumpfcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: digimoneyd.pid)</source>
-        <translation>PID Datei angeben (Standard: digimoney.pid)</translation>
+        <source>Specify pid file (default: drumpfcoind.pid)</source>
+        <translation>PID Datei angeben (Standard: drumpfcoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2719,13 +2719,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=digimoneyrpc
+rpcuser=drumpfcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DrumpfCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2831,8 +2831,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Digimoney will not work properly.</source>
-        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird Digimoney nicht richtig funktionieren.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DrumpfCoin will not work properly.</source>
+        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird DrumpfCoin nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3138,7 +3138,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Digimoney is shutting down.</source>
+        <source>Initialization sanity check failed. DrumpfCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3203,13 +3203,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Digimoney</source>
-        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der Digimoney Brieftasche.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DrumpfCoin</source>
+        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der DrumpfCoin Brieftasche.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Digimoney to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden. Starte die Digimoney Brieftasche neu zum komplettieren.</translation>
+        <source>Wallet needed to be rewritten: restart DrumpfCoin to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden. Starte die DrumpfCoin Brieftasche neu zum komplettieren.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3273,7 +3273,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Digimoney is probably already running.</source>
+        <source>Unable to bind to %s on this computer. DrumpfCoin is probably already running.</source>
         <translation>Fehler beim anbinden %s auf diesem Computer. BlaclCoin Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
@@ -3313,7 +3313,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Digimoney is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. DrumpfCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

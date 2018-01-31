@@ -111,7 +111,7 @@ void Shutdown()
     TRY_LOCK(cs_Shutdown, lockShutdown);
     if (!lockShutdown) return;
 
-    RenameThread("digimoney-shutoff");
+    RenameThread("drumpfcoin-shutoff");
     mempool.AddTransactionsUpdated(1);
     StopRPCThreads();
     SecureMsgShutdown();
@@ -188,8 +188,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: digimoney.conf)") + "\n";
-    strUsage += "  -pid=<file>            " + _("Specify pid file (default: digimoneyd.pid)") + "\n";
+    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: drumpfcoin.conf)") + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: drumpfcoind.pid)") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -wallet=<dir>          " + _("Specify wallet file (within data directory)") + "\n";
     strUsage += "  -dbcache=<n>           " + _("Set database cache size in megabytes (default: 10)") + "\n";
@@ -293,7 +293,7 @@ strUsage += "\n" + _("Masternode options:") + "\n";
     strUsage += "\n" + _("Darksend options:") + "\n";
     strUsage += "  -enabledarksend=<n>          " + _("Enable use of automated darksend for funds stored in this wallet (0-1, default: 0)") + "\n";
     strUsage += "  -darksendrounds=<n>          " + _("Use N separate masternodes to anonymize funds  (2-8, default: 2)") + "\n";
-    strUsage += "  -anonymizedigimoneyamount=<n> " + _("Keep N Digimoney anonymized (default: 0)") + "\n";
+    strUsage += "  -anonymizedrumpfcoinamount=<n> " + _("Keep N DrumpfCoin anonymized (default: 0)") + "\n";
     strUsage += "  -liquidityprovider=<n>       " + _("Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)") + "\n";
 
     strUsage += "\n" + _("InstantX options:") + "\n";
@@ -514,7 +514,7 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     // Sanity check
     if (!InitSanityCheck())
-        return InitError(_("Initialization sanity check failed. Digimoney is shutting down."));
+        return InitError(_("Initialization sanity check failed. DrumpfCoin is shutting down."));
 
     std::string strDataDir = GetDataDir().string();
 #ifdef ENABLE_WALLET
@@ -530,12 +530,12 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (file) fclose(file);
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Digimoney is probably already running."), strDataDir));
+        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. DrumpfCoin is probably already running."), strDataDir));
 
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Digimoney version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
+    LogPrintf("DrumpfCoin version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
     LogPrintf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
     if (!fLogTimestamps)
         LogPrintf("Startup time: %s\n", DateTimeStrFormat("%x %H:%M:%S", GetTime()));
@@ -555,7 +555,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     nMasternodeMinProtocol = GetArg("-masternodeminprotocol", MIN_POOL_PEER_PROTO_VERSION);
 
     if (fDaemon)
-        fprintf(stdout, "Digimoney server starting\n"); 
+        fprintf(stdout, "DrumpfCoin server starting\n"); 
 
     int64_t nStart;
 
@@ -868,10 +868,10 @@ bool AppInit2(boost::thread_group& threadGroup)
                 InitWarning(msg);
             }
             else if (nLoadWalletRet == DB_TOO_NEW)
-                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Digimoney") << "\n";
+                strErrors << _("Error loading wallet.dat: Wallet requires newer version of DrumpfCoin") << "\n";
             else if (nLoadWalletRet == DB_NEED_REWRITE)
             {
-                strErrors << _("Wallet needed to be rewritten: restart Digimoney to complete") << "\n";
+                strErrors << _("Wallet needed to be rewritten: restart DrumpfCoin to complete") << "\n";
                 LogPrintf("%s", strErrors.str());
                 return InitError(strErrors.str());
             }
@@ -1053,9 +1053,9 @@ bool AppInit2(boost::thread_group& threadGroup)
         nDarksendRounds = 99999;
     }
 
-    nAnonymizeDigimoneyAmount = GetArg("-anonymizedigimoneyamount", 0);
-    if(nAnonymizeDigimoneyAmount > 999999) nAnonymizeDigimoneyAmount = 999999;
-    if(nAnonymizeDigimoneyAmount < 2) nAnonymizeDigimoneyAmount = 2;
+    nAnonymizeDrumpfCoinAmount = GetArg("-anonymizedrumpfcoinamount", 0);
+    if(nAnonymizeDrumpfCoinAmount > 999999) nAnonymizeDrumpfCoinAmount = 999999;
+    if(nAnonymizeDrumpfCoinAmount < 2) nAnonymizeDrumpfCoinAmount = 2;
 
     fEnableInstantX = GetBoolArg("-enableinstantx", fEnableInstantX);
     nInstantXDepth = GetArg("-instantxdepth", nInstantXDepth);
@@ -1070,14 +1070,14 @@ bool AppInit2(boost::thread_group& threadGroup)
     LogPrintf("fLiteMode %d\n", fLiteMode);
     LogPrintf("nInstantXDepth %d\n", nInstantXDepth);
     LogPrintf("Darksend rounds %d\n", nDarksendRounds);
-    LogPrintf("Anonymize Digimoney Amount %d\n", nAnonymizeDigimoneyAmount);
+    LogPrintf("Anonymize DrumpfCoin Amount %d\n", nAnonymizeDrumpfCoinAmount);
 
     /* Denominations
        A note about convertability. Within Darksend pools, each denomination
        is convertable to another.
        For example:
-       1DGM+1000 == (.1DGM+100)*10
-       10DGM+10000 == (1DGM+1000)*10
+       1YUGE+1000 == (.1YUGE+100)*10
+       10YUGE+10000 == (1YUGE+1000)*10
     */
     darkSendDenominations.push_back( (1000        * COIN)+1000000 );
     darkSendDenominations.push_back( (100         * COIN)+100000 );

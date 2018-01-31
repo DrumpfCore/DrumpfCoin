@@ -338,15 +338,15 @@ void OverviewPage::updateDarksendProgress()
     if(!pwalletMain) return;
 
     QString strAmountAndRounds;
-    QString strAnonymizeDigimoneyAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeDigimoneyAmount * COIN, false, BitcoinUnits::separatorAlways);
+    QString strAnonymizeDrumpfCoinAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeDrumpfCoinAmount * COIN, false, BitcoinUnits::separatorAlways);
 
     if(currentBalance == 0)
     {
         ui->darksendProgress->setValue(0);
         ui->darksendProgress->setToolTip(tr("No inputs detected"));
         // when balance is zero just show info from settings
-        strAnonymizeDigimoneyAmount = strAnonymizeDigimoneyAmount.remove(strAnonymizeDigimoneyAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeDigimoneyAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
+        strAnonymizeDrumpfCoinAmount = strAnonymizeDrumpfCoinAmount.remove(strAnonymizeDrumpfCoinAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeDrumpfCoinAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
 
         ui->labelAmountRounds->setToolTip(tr("No inputs detected"));
         ui->labelAmountRounds->setText(strAmountAndRounds);
@@ -374,20 +374,20 @@ void OverviewPage::updateDarksendProgress()
     CAmount nMaxToAnonymize = nAnonymizableBalance + currentAnonymizedBalance + nDenominatedUnconfirmedBalance;
 
     // If it's more than the anon threshold, limit to that.
-    if(nMaxToAnonymize > nAnonymizeDigimoneyAmount*COIN) nMaxToAnonymize = nAnonymizeDigimoneyAmount*COIN;
+    if(nMaxToAnonymize > nAnonymizeDrumpfCoinAmount*COIN) nMaxToAnonymize = nAnonymizeDrumpfCoinAmount*COIN;
 
     if(nMaxToAnonymize == 0) return;
 
-    if(nMaxToAnonymize >= nAnonymizeDigimoneyAmount * COIN) {
+    if(nMaxToAnonymize >= nAnonymizeDrumpfCoinAmount * COIN) {
         ui->labelAmountRounds->setToolTip(tr("Found enough compatible inputs to anonymize %1")
-                                          .arg(strAnonymizeDigimoneyAmount));
-        strAnonymizeDigimoneyAmount = strAnonymizeDigimoneyAmount.remove(strAnonymizeDigimoneyAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeDigimoneyAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
+                                          .arg(strAnonymizeDrumpfCoinAmount));
+        strAnonymizeDrumpfCoinAmount = strAnonymizeDrumpfCoinAmount.remove(strAnonymizeDrumpfCoinAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeDrumpfCoinAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
     } else {
         QString strMaxToAnonymize = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nMaxToAnonymize, false, BitcoinUnits::separatorAlways);
         ui->labelAmountRounds->setToolTip(tr("Not enough compatible inputs to anonymize <span style='color:red;'>%1</span>,<br>"
                                              "will anonymize <span style='color:red;'>%2</span> instead")
-                                          .arg(strAnonymizeDigimoneyAmount)
+                                          .arg(strAnonymizeDrumpfCoinAmount)
                                           .arg(strMaxToAnonymize));
         strMaxToAnonymize = strMaxToAnonymize.remove(strMaxToAnonymize.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
         strAmountAndRounds = "<span style='color:red;'>" +
@@ -562,7 +562,7 @@ void OverviewPage::toggleDarksend(){
 
         /* show darksend configuration if client has defaults set */
 
-        if(nAnonymizeDigimoneyAmount == 0){
+        if(nAnonymizeDrumpfCoinAmount == 0){
             DarksendConfig dlg(this);
             dlg.setModel(walletModel);
             dlg.exec();

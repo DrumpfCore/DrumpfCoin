@@ -1,0 +1,18 @@
+obj/script.o: script.cpp script.h keystore.h key.h allocators.h \
+ support/cleanse.h pubkey.h hash.h uint256.h serialize.h version.h \
+ clientversion.h crypto/ripemd160.h crypto/sha256.h sync.h threadsafety.h \
+ bignum.h util.h tinyformat.h stealth.h main.h core.h txmempool.h net.h \
+ compat.h limitedmap.h mruset.h netbase.h protocol.h chainparams.h \
+ scrypt.h hashblock.h x11/sph_blake.h x11/sph_types.h x11/sph_bmw.h \
+ x11/sph_groestl.h x11/sph_jh.h x11/sph_keccak.h x11/sph_skein.h \
+ x11/sph_luffa.h x11/sph_cubehash.h x11/sph_shavite.h x11/sph_simd.h \
+ x11/sph_echo.h crypto/sha1.h
+script.cpp script.h keystore.h key.h allocators.h :
+ support/cleanse.h pubkey.h hash.h uint256.h serialize.h version.h :
+ clientversion.h crypto/ripemd160.h crypto/sha256.h sync.h threadsafety.h :
+ bignum.h util.h tinyformat.h stealth.h main.h core.h txmempool.h net.h :
+ compat.h limitedmap.h mruset.h netbase.h protocol.h chainparams.h :
+ scrypt.h hashblock.h x11/sph_blake.h x11/sph_types.h x11/sph_bmw.h :
+ x11/sph_groestl.h x11/sph_jh.h x11/sph_keccak.h x11/sph_skein.h :
+ x11/sph_luffa.h x11/sph_cubehash.h x11/sph_shavite.h x11/sph_simd.h :
+ x11/sph_echo.h crypto/sha1.h :

@@ -45,7 +45,7 @@ bool CMasternodeConfig::read(boost::filesystem::path path) {
             }
             CBitcoinAddress address(rewardAddress);
             if (!address.IsValid()) {
-                LogPrintf("Invalid DGM address in masternode.conf line: %s\n", line.c_str());
+                LogPrintf("Invalid YUGE address in masternode.conf line: %s\n", line.c_str());
                 streamConfig.close();
                 return false;
             }

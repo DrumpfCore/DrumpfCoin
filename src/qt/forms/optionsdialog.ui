@@ -125,10 +125,10 @@
        <item row="4" column="0">
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-          <string>Automatically start Digimoney after logging in to the system.</string>
+          <string>Automatically start DrumpfCoin after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start Digimoney on system login</string>
+          <string>&amp;Start DrumpfCoin on system login</string>
          </property>
         </widget>
        </item>
@@ -186,12 +186,12 @@
           <string notr="true"/>
          </property>
          <property name="text">
-          <string>Amount of Digimoney to keep anonymized</string>
+          <string>Amount of DrumpfCoin to keep anonymized</string>
          </property>
         </widget>
        </item>
        <item row="7" column="1">
-        <widget class="QSpinBox" name="anonymizeDigimoney">
+        <widget class="QSpinBox" name="anonymizeDrumpfCoin">
          <property name="minimum">
           <number>2</number>
          </property>
@@ -216,7 +216,7 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
-          <string>Automatically open the Digimoney client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+          <string>Automatically open the DrumpfCoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -226,7 +226,7 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-          <string>Connect to the Digimoney network through a SOCKS5 proxy (e.g. when connecting through Tor).</string>
+          <string>Connect to the DrumpfCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</string>
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS5 proxy:</string>
@@ -380,7 +380,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting Digimoney.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting DrumpfCoin.</string>
            </property>
           </widget>
          </item>

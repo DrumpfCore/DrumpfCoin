@@ -1,0 +1,4 @@
+obj/x11/echo.o: x11/echo.c x11/sph_echo.h x11/sph_types.h \
+ x11/aes_helper.c
+x11/echo.c x11/sph_echo.h x11/sph_types.h :
+ x11/aes_helper.c :

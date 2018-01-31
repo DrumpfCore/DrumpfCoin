@@ -856,7 +856,7 @@ void QCPLayer::removeChild(QCPLayerable *layerable)
 */
 
 /* end documentation of inline functions */
-/* start documentation of digimoney virtual functions */
+/* start documentation of drumpfcoin virtual functions */
 
 /*! \fn virtual void QCPLayerable::applyDefaultAntialiasingHint(QCPPainter *painter) const = 0
   \internal
@@ -898,7 +898,7 @@ void QCPLayer::removeChild(QCPLayerable *layerable)
   set to \ref clipRect.
 */
 
-/* end documentation of digimoney virtual functions */
+/* end documentation of drumpfcoin virtual functions */
 /* start documentation of signals */
 
 /*! \fn void QCPLayerable::layerChanged(QCPLayer *newLayer);
@@ -2202,7 +2202,7 @@ int QCPLayoutElement::calculateAutoMargin(QCP::MarginSide side)
   thelayoutsystem "The Layout System".
 */
 
-/* start documentation of digimoney virtual functions */
+/* start documentation of drumpfcoin virtual functions */
 
 /*! \fn virtual int QCPLayout::elementCount() const = 0
   
@@ -2246,7 +2246,7 @@ int QCPLayoutElement::calculateAutoMargin(QCP::MarginSide side)
   \see takeAt
 */
 
-/* end documentation of digimoney virtual functions */
+/* end documentation of drumpfcoin virtual functions */
 
 /*!
   Creates an instance of QCPLayout and sets default values. Note that since QCPLayout
@@ -6824,7 +6824,7 @@ void QCPAxisPainterPrivate::getMaxTickLabelSize(const QFont &font, const QString
   
   \section plottables-subclassing Creating own plottables
   
-  To create an own plottable, you implement a subclass of QCPAbstractPlottable. These are the digimoney
+  To create an own plottable, you implement a subclass of QCPAbstractPlottable. These are the drumpfcoin
   virtual functions, you must implement:
   \li \ref clearData
   \li \ref selectTest
@@ -6874,7 +6874,7 @@ void QCPAxisPainterPrivate::getMaxTickLabelSize(const QFont &font, const QString
   </table>
 */
 
-/* start of documentation of digimoney virtual functions */
+/* start of documentation of drumpfcoin virtual functions */
 
 /*! \fn void QCPAbstractPlottable::clearData() = 0
   Clears all data in the plottable.
@@ -6921,7 +6921,7 @@ void QCPAxisPainterPrivate::getMaxTickLabelSize(const QFont &font, const QString
   \see rescaleAxes, getKeyRange
 */
 
-/* end of documentation of digimoney virtual functions */
+/* end of documentation of drumpfcoin virtual functions */
 /* start of documentation of signals */
 
 /*! \fn void QCPAbstractPlottable::selectionChanged(bool selected)
@@ -8357,7 +8357,7 @@ void QCPItemPosition::setPixelPoint(const QPointF &pixelPoint)
   
   \section items-subclassing Creating own items
   
-  To create an own item, you implement a subclass of QCPAbstractItem. These are the digimoney
+  To create an own item, you implement a subclass of QCPAbstractItem. These are the drumpfcoin
   virtual functions, you must implement:
   \li \ref selectTest
   \li \ref draw
@@ -8440,7 +8440,7 @@ void QCPItemPosition::setPixelPoint(const QPointF &pixelPoint)
 */
 
 /* end of documentation of inline functions */
-/* start documentation of digimoney virtual functions */
+/* start documentation of drumpfcoin virtual functions */
 
 /*! \fn void QCPAbstractItem::draw(QCPPainter *painter) = 0
   \internal
@@ -8452,7 +8452,7 @@ void QCPItemPosition::setPixelPoint(const QPointF &pixelPoint)
   setClipToAxisRect and \ref setClipAxisRect.
 */
 
-/* end documentation of digimoney virtual functions */
+/* end documentation of drumpfcoin virtual functions */
 /* start documentation of signals */
 
 /*! \fn void QCPAbstractItem::selectionChanged(bool selected)
@@ -12906,7 +12906,7 @@ void QCPAxisRect::wheelEvent(QWheelEvent *event)
   Only derive directly from this class when you need absolute freedom (e.g. a custom legend entry
   that's not even associated with a plottable).
 
-  You must implement the following digimoney virtual functions:
+  You must implement the following drumpfcoin virtual functions:
   \li \ref draw (from QCPLayerable)
   
   You inherit the following members you may use:

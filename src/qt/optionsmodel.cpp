@@ -66,13 +66,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizeDigimoneyAmount"))
-        settings.setValue("nAnonymizeDigimoneyAmount", 1000);
-    nAnonymizeDigimoneyAmount = settings.value("nAnonymizeDigimoneyAmount").toLongLong();
+    if (!settings.contains("nAnonymizeDrumpfCoinAmount"))
+        settings.setValue("nAnonymizeDrumpfCoinAmount", 1000);
+    nAnonymizeDrumpfCoinAmount = settings.value("nAnonymizeDrumpfCoinAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeDigimoneyAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeDigimoneyAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeDrumpfCoinAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeDrumpfCoinAmount").toString().toStdString());
 
 
 
@@ -206,8 +206,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeDigimoneyAmount:
-            return QVariant(nAnonymizeDigimoneyAmount);
+        case AnonymizeDrumpfCoinAmount:
+            return QVariant(nAnonymizeDrumpfCoinAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -318,10 +318,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeDigimoneyAmount:
-            nAnonymizeDigimoneyAmount = value.toInt();
-            settings.setValue("nAnonymizeDigimoneyAmount", nAnonymizeDigimoneyAmount);
-            emit AnonymizeDigimoneyAmountChanged(nAnonymizeDigimoneyAmount);
+        case AnonymizeDrumpfCoinAmount:
+            nAnonymizeDrumpfCoinAmount = value.toInt();
+            settings.setValue("nAnonymizeDrumpfCoinAmount", nAnonymizeDrumpfCoinAmount);
+            emit AnonymizeDrumpfCoinAmountChanged(nAnonymizeDrumpfCoinAmount);
             break;
         default:
             break;

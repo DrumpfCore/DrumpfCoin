@@ -94,12 +94,12 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        vSeeds.push_back(CDNSSeedData("1","s0.digimoney.info"));
-        vSeeds.push_back(CDNSSeedData("2","s1.digimoney.info"));
-        vSeeds.push_back(CDNSSeedData("3","s2.digimoney.info"));
-        vSeeds.push_back(CDNSSeedData("4","s3.digimoney.info"));
-        vSeeds.push_back(CDNSSeedData("5","s4.digimoney.info"));
-        vSeeds.push_back(CDNSSeedData("6","s5.digimoney.info"));
+        vSeeds.push_back(CDNSSeedData("1","s0.drumpfcoin.info"));
+        vSeeds.push_back(CDNSSeedData("2","s1.drumpfcoin.info"));
+        vSeeds.push_back(CDNSSeedData("3","s2.drumpfcoin.info"));
+        vSeeds.push_back(CDNSSeedData("4","s3.drumpfcoin.info"));
+        vSeeds.push_back(CDNSSeedData("5","s4.drumpfcoin.info"));
+        vSeeds.push_back(CDNSSeedData("6","s5.drumpfcoin.info"));
 
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 

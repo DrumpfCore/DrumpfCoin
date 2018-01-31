@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Digimoney</source>
-        <translation>O Digimoneyu</translation>
+        <source>About DrumpfCoin</source>
+        <translation>O DrumpfCoinu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Digimoney&lt;/b&gt; version</source>
-        <translation>Verze &lt;b&gt;Digimoneyu&lt;/b&gt; </translation>
+        <source>&lt;b&gt;DrumpfCoin&lt;/b&gt; version</source>
+        <translation>Verze &lt;b&gt;DrumpfCoinu&lt;/b&gt; </translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Digimoney developers</source>
+Copyright © 2015-2017 The DrumpfCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Digimoney developers</translation>
+Copyright © 2015-2017 The DrumpfCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Digimoney addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tato jsou tvé Digimoney adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
+        <source>These are your DrumpfCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tato jsou tvé DrumpfCoin adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Digimoney address</source>
-        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Digimoney adresu.</translation>
+        <source>Sign a message to prove you own a DrumpfCoin address</source>
+        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto DrumpfCoin adresu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Digimoney address</source>
-        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Digimoney adresou.</translation>
+        <source>Verify a message to ensure it was signed with a specified DrumpfCoin address</source>
+        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou DrumpfCoin adresou.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Digimoney will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Pro dokončení procesu šifrování se Digimoney nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
+        <source>DrumpfCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Pro dokončení procesu šifrování se DrumpfCoin nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Digimoney</source>
-        <translation>Zobraz informace a Digimoneyu</translation>
+        <source>Show information about DrumpfCoin</source>
+        <translation>Zobraz informace a DrumpfCoinu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Digimoney address</source>
-        <translation>Odešli mince na Digimoney adresu</translation>
+        <source>Send coins to a DrumpfCoin address</source>
+        <translation>Odešli mince na DrumpfCoin adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Digimoney</source>
-        <translation>Uprav možnosti konfigurace pro Digimoney</translation>
+        <source>Modify configuration options for DrumpfCoin</source>
+        <translation>Uprav možnosti konfigurace pro DrumpfCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Digimoney</source>
-        <translation>Digimoney</translation>
+        <source>DrumpfCoin</source>
+        <translation>DrumpfCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Digimoney</source>
-        <translation>&amp;O Digimoneyu</translation>
+        <source>&amp;About DrumpfCoin</source>
+        <translation>&amp;O DrumpfCoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Digimoney client</source>
-        <translation>Digimoney klient</translation>
+        <source>DrumpfCoin client</source>
+        <translation>DrumpfCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Digimoney network</source>
-        <translation><numerusform>%n aktivní spojení do Digimoney sítě</numerusform><numerusform>%n aktivních spojení do Digimoney sítě</numerusform><numerusform>%n aktivních spojení do Digimoney sítě</numerusform></translation>
+        <source>%n active connection(s) to DrumpfCoin network</source>
+        <translation><numerusform>%n aktivní spojení do DrumpfCoin sítě</numerusform><numerusform>%n aktivních spojení do DrumpfCoin sítě</numerusform><numerusform>%n aktivních spojení do DrumpfCoin sítě</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Digimoney address or malformed URI parameters.</source>
-        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Digimoney adresou nebo chybnými URI parametry.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DrumpfCoin address or malformed URI parameters.</source>
+        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou DrumpfCoin adresou nebo chybnými URI parametry.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Digimoney can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažné chybě. Digimoney již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
+        <source>A fatal error occurred. DrumpfCoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažné chybě. DrumpfCoin již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Digimoney address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná Digimoney adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DrumpfCoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná DrumpfCoin adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Digimoney-Qt</source>
-        <translation>Digimoney-Qt</translation>
+        <source>DrumpfCoin-Qt</source>
+        <translation>DrumpfCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Digimoney after logging in to the system.</source>
-        <translation>Automaticky spustit Digimoney po přihlášení do systému.</translation>
+        <source>Automatically start DrumpfCoin after logging in to the system.</source>
+        <translation>Automaticky spustit DrumpfCoin po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Digimoney on system login</source>
-        <translation>&amp;Spustit Digimoney při přihlášení do systému</translation>
+        <source>&amp;Start DrumpfCoin on system login</source>
+        <translation>&amp;Spustit DrumpfCoin při přihlášení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Digimoney client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otevřít port Digimoney klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
+        <source>Automatically open the DrumpfCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otevřít port DrumpfCoin klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Digimoney network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připoj se do sítě Digimoney přes SOCKS proxy (např. při připojení přes Tor)</translation>
+        <source>Connect to the DrumpfCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připoj se do sítě DrumpfCoin přes SOCKS proxy (např. při připojení přes Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Digimoney.</source>
-        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu Digimoneyu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu DrumpfCoinu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Digimoney.</source>
-        <translation>Nastavení se projeví až po restartu Digimoneyu.</translation>
+        <source>This setting will take effect after restarting DrumpfCoin.</source>
+        <translation>Nastavení se projeví až po restartu DrumpfCoinu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Digimoney network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Digimoney sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DrumpfCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s DrumpfCoin sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Digimoney-Qt help message to get a list with possible Digimoney command-line options.</source>
-        <translation>Zobrazit Digimoney-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
+        <source>Show the DrumpfCoin-Qt help message to get a list with possible DrumpfCoin command-line options.</source>
+        <translation>Zobrazit DrumpfCoin-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Digimoney - Debug window</source>
-        <translation>Digimoney - Ladící okno</translation>
+        <source>DrumpfCoin - Debug window</source>
+        <translation>DrumpfCoin - Ladící okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Digimoney Core</source>
-        <translation>Jádro Digimoneyu</translation>
+        <source>DrumpfCoin Core</source>
+        <translation>Jádro DrumpfCoinu</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Digimoney debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři logovací soubor Digimoneyu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
+        <source>Open the DrumpfCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři logovací soubor DrumpfCoinu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Digimoney RPC console.</source>
-        <translation>Vítej v Digimoney RPC konzoli.</translation>
+        <source>Welcome to the DrumpfCoin RPC console.</source>
+        <translation>Vítej v DrumpfCoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 DGM</source>
-        <translation>123.456 DGM {0.00 ?}</translation>
+        <source>0.00 YUGE</source>
+        <translation>123.456 YUGE {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 DGM</source>
-        <translation>123.456 DGM</translation>
+        <source>123.456 YUGE</source>
+        <translation>123.456 YUGE</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Digimoney address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Napiš Digimoney adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a DrumpfCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Napiš DrumpfCoin adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Digimoney address</source>
-        <translation>UPOZORNĚNÍ: Neplatná Digimoney adresa</translation>
+        <source>WARNING: Invalid DrumpfCoin address</source>
+        <translation>UPOZORNĚNÍ: Neplatná DrumpfCoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Digimoney address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadej Digimoney adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a DrumpfCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadej DrumpfCoin adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Digimoney address</source>
-        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Digimoney adresu</translation>
+        <source>Sign the message to prove you own this DrumpfCoin address</source>
+        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto DrumpfCoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Digimoney address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Digimoney adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified DrumpfCoin address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou DrumpfCoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Digimoney address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadej Digimoney adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a DrumpfCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadej DrumpfCoin adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Digimoney signature</source>
-        <translation>Zadej Digimoney podpis</translation>
+        <source>Enter DrumpfCoin signature</source>
+        <translation>Zadej DrumpfCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Digimoney version</source>
-        <translation>Verze Digimoneyu</translation>
+        <source>DrumpfCoin version</source>
+        <translation>Verze DrumpfCoinu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or digimoneyd</source>
-        <translation>Pošli příkaz na -server nebo digimoneyd</translation>
+        <source>Send command to -server or drumpfcoind</source>
+        <translation>Pošli příkaz na -server nebo drumpfcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: digimoney.conf)</source>
-        <translation>Urči konfigurační soubor (výchozí: digimoney.conf)</translation>
+        <source>Specify configuration file (default: drumpfcoin.conf)</source>
+        <translation>Urči konfigurační soubor (výchozí: drumpfcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: digimoneyd.pid)</source>
-        <translation>Urči pid soubor (výchozí: digimoneyd.pid)</translation>
+        <source>Specify pid file (default: drumpfcoind.pid)</source>
+        <translation>Urči pid soubor (výchozí: drumpfcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=digimoneyrpc
+rpcuser=drumpfcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DrumpfCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Digimoney will not work properly.</source>
-        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Digimoney nebude pracovat správně. </translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DrumpfCoin will not work properly.</source>
+        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak DrumpfCoin nebude pracovat správně. </translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Digimoney is shutting down.</source>
+        <source>Initialization sanity check failed. DrumpfCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Digimoney</source>
-        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi Digimoneyu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DrumpfCoin</source>
+        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi DrumpfCoinu</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Digimoney to complete</source>
-        <translation>Peněženka by potřebovala být přepsána: restartuj Digimoney pro dokončení</translation>
+        <source>Wallet needed to be rewritten: restart DrumpfCoin to complete</source>
+        <translation>Peněženka by potřebovala být přepsána: restartuj DrumpfCoin pro dokončení</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Digimoney is probably already running.</source>
-        <translation>Nemůžu se svázat s %s na tomto počítači. Digimoney nejspíše již běží.</translation>
+        <source>Unable to bind to %s on this computer. DrumpfCoin is probably already running.</source>
+        <translation>Nemůžu se svázat s %s na tomto počítači. DrumpfCoin nejspíše již běží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digimoney Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Digimoney is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. DrumpfCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

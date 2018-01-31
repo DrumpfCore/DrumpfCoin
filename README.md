@@ -1,17 +1,17 @@
-# digimoney
+# drumpfcoin
 BUILD LINUX
 
-    git clone https://github.com/juninhodecio/digimoney.git
+    git clone https://github.com/juninhodecio/drumpfcoin.git
 
-    cd digimoney/src
+    cd drumpfcoin/src
 
     make -f makefile.unix # Headless
 
 (optional)
 
-    strip digimoneyd
+    strip drumpfcoind
 
-    sudo cp digimoneyd /usr/local/bin
+    sudo cp drumpfcoind /usr/local/bin
 
 
 Deps
@@ -33,7 +33,7 @@ apt-get install libdb4.8-dev libdb4.8++-dev
 apt-get install libminiupnpc-dev
 
 
-For digimoney-qt
+For drumpfcoin-qt
 
 
 apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler

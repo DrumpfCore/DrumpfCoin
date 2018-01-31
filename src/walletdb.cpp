@@ -368,7 +368,7 @@ ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue,
         {
             string strAddress;
             ssKey >> strAddress;
-            ssValue >> pwallet->mapAddressBook[CDigimoneycoinAddress(strAddress).Get()];
+            ssValue >> pwallet->mapAddressBook[CDrumpfCoincoinAddress(strAddress).Get()];
         }
         else if (strType == "tx")
         {
@@ -738,7 +738,7 @@ DBErrors CWalletDB::LoadWallet(CWallet* pwallet)
 void ThreadFlushWalletDB(const string& strFile)
 {
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("digimoney-wallet");
+    RenameThread("drumpfcoin-wallet");
 
     static bool fOneThread;
     if (fOneThread)
