@@ -1135,17 +1135,14 @@ int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
 {
     int64_t nSubsidy = 0 * COIN;
     if (pindexBest->nMoneySupply < MAX_MONEY){
-        if(pindexBest->nHeight == 0) //premine 1.5M 3%
-        {
-            nSubsidy = 1500000 * COIN;  
-        }else if(pindexBest->nHeight < 101)
+        if(pindexBest->nHeight < 101)
         {
             nSubsidy = 0 * COIN;
         }else if(pindexBest->nHeight > 100000)
         {
-            nSubsidy = 25 * COIN;  
+            nSubsidy = 25 * COIN;
         }else{
-            nSubsidy = 50 * COIN; 
+            nSubsidy = 50 * COIN;
         }
     }
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d nHeight=%d\n", FormatMoney(nSubsidy), nSubsidy, nHeight);
@@ -1167,7 +1164,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees, int nHeight)
 {
     int64_t nSubsidy = 0 * COIN;
     if (pindexBest->nMoneySupply < MAX_MONEY){
-       
+
        if(pindexBest->nHeight <= 20000)
         {
             nSubsidy = 10 * COIN;
@@ -1187,7 +1184,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees, int nHeight)
         {
             nSubsidy = 40 * COIN;
         }else{
-          nSubsidy = 20 * COIN;  
+          nSubsidy = 20 * COIN;
         }
     }
 
