@@ -44,14 +44,14 @@ void CActiveMasternode::ManageStatus()
 
         LogPrintf("CActiveMasternode::ManageStatus() - Checking inbound connection to '%s'\n", service.ToString().c_str());
 
-                  
+
             if(!ConnectNode((CAddress)service, service.ToString().c_str())){
                 notCapableReason = "Could not connect to " + service.ToString();
                 status = MASTERNODE_NOT_CAPABLE;
                 LogPrintf("CActiveMasternode::ManageStatus() - not capable: %s\n", notCapableReason.c_str());
                 return;
             }
-        
+
 
         if(pwalletMain->IsLocked()){
             notCapableReason = "Wallet is locked.";
@@ -427,7 +427,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
     // Filter
     BOOST_FOREACH(const COutput& out, vCoins)
     {
-        if(out.tx->vout[out.i].nValue == 30000*COIN) { //exactly
+        if(out.tx->vout[out.i].nValue == 1000*COIN) { //exactly
         	filteredCoins.push_back(out);
         }
     }
@@ -449,7 +449,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternodeForPubKey(std::string co
     // Filter
     BOOST_FOREACH(const COutput& out, vCoins)
     {
-        if(out.tx->vout[out.i].scriptPubKey == scriptPubKey && out.tx->vout[out.i].nValue == 30000*COIN) { //exactly
+        if(out.tx->vout[out.i].scriptPubKey == scriptPubKey && out.tx->vout[out.i].nValue == 1000*COIN) { //exactly
         	filteredCoins.push_back(out);
         }
     }
